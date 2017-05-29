@@ -3,5 +3,16 @@ main:
   - title: "Introduction"
     url: /introduction/
   - title: "Documentation"
+    url: /docs/installation/
   - title: "Resources"
+    url: /resources/
   - title: "Community"
+    url: /community/
+
+docs:
+  - title: "Getting Started"
+    children:
+      - title: "Installing Bonsai"
+        url: /docs/installation/
+      - title: "Packages"
+        url: /docs/packages/
