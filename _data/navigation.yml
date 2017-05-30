@@ -14,5 +14,7 @@ docs:
     children:
       - title: "Installing Bonsai"
         url: /docs/installation/
-      - title: "Packages"
+      - title: "Package Manager"
         url: /docs/packages/
+      - title: "Workflow Editor"
+        url: /docs/editor/
