@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35mm"
+   height="12mm"
+   viewBox="0 0 35 12"
+   version="1.1"
+   id="svg6496"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="combinator.svg">
+  <defs
+     id="defs6490">
+    <clipPath
+       id="48_text_clipper">
+      <rect
+         x="6"
+         y="556"
+         width="152.60001"
+         height="26.389999"
+         id="49" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.8815321"
+     inkscape:cx="55.876467"
+     inkscape:cy="18.871827"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="3000"
+     inkscape:window-height="1875"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6493">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.156495,-35.99317)">
+    <g
+       transform="matrix(0.18181818,0,0,0.18181818,40.61104,-51.825011)"
+       id="g4571">
+      <circle
+         id="40"
+         cy="516"
+         cx="36"
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;shape-rendering:auto"
+         r="30" />
+      <circle
+         id="41"
+         cy="516"
+         cx="36"
+         style="opacity:1;fill:#add8e6;stroke:none;shape-rendering:auto"
+         r="30" />
+      <g
+         aria-label="C"
+         style="font-size:21px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none;shape-rendering:auto"
+         id="42">
+        <path
+           d="m 36.389648,523.72969 q -3.188964,0 -5.096191,-2.0918 -1.896973,-2.10205 -1.896973,-5.68066 0,-3.57862 1.896973,-5.67041 1.907227,-2.10206 5.096191,-2.10206 2.450684,0 4.17334,1.32276 1.722657,1.32275 1.937989,3.48633 h -2.050782 q -0.123047,-1.4253 -1.240722,-2.26612 -1.107422,-0.84082 -2.799317,-0.84082 -2.286621,0 -3.619629,1.5791 -1.333007,1.56885 -1.333007,4.49122 0,2.9121 1.322753,4.49121 1.322754,1.5791 3.588868,1.5791 1.763671,0 2.850586,-0.86133 1.086914,-0.86133 1.230468,-2.46094 h 2.050782 q -0.215332,2.39942 -1.886719,3.71192 -1.671387,1.3125 -4.22461,1.3125 z"
+           id="path7063"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="46"
+         x="6"
+         y="556"
+         style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none;shape-rendering:auto"
+         clip-path="url(#48_text_clipper)"
+         transform="translate(78.768628,-53.483887)">
+        <tspan
+           dy="15.75pt"
+           id="50">Combinator</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
