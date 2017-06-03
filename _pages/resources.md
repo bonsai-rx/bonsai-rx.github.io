@@ -5,6 +5,12 @@ permalink: /resources/
 author_profile: false
 ---
 
+## Documentation
+
+* [ReactiveX](http://reactivex.io/): the asynchronous programming framework powering Bonsai
+* [OpenCV](http://docs.opencv.org/2.4.13.2/): the computer vision library used by Vision and Dsp packages
+* [IronPython](http://ironpython.net/documentation/): the .NET Python implementation used by the Scripting package
+
 ## Video Tutorials
 
  * [Bonsai - Crash Course -](https://www.youtube.com/watch?v=srcqJXd6Vz4){:target="_blank"}
