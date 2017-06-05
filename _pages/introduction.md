@@ -26,7 +26,7 @@ Furthermore, in modern systems we are often forced to combine not just one, but 
 
 ![Devices used in interactive systems](/assets/images/devices.jpg)
 
-The core philosophy behind Bonsai is to embrace the natural constraints of the problem, heterogeneous devices and asynchronous computation, and provide development tools and languages that make it easier to put together interactive systems.
+The core philosophy behind Bonsai is to embrace the natural constraints of the problem -- heterogeneous devices and asynchronous computation -- and provide development tools and languages that make it easier to put together interactive systems.
 
 ## A metaphor for asynchronous computation
 
