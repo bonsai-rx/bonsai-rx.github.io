@@ -36,13 +36,15 @@ Think about your favorite social networking service, and how your personal accou
 
 Finally, user accounts can be terminated. The user can naturally close her own account, indicating there will be no more future posts, or the account can be terminated exceptionally by a moderator, perhaps due to a breach in the terms of service.
 
-Observable sequences behave in a very similar way to a social network account. They can be "followed", or rather subscribed to, so that its observers get notifications whenever there are new values available in the sequence. These notifications can be sent out at anytime, usually dependent on how specific data sources work. Also notifications can be sent out in reaction to other notifications.
+Now imagine your webcam had its own user account in the social network, where it posted new images periodically from time to time. Some accounts could "follow" the camera in order to react whenever it posts a new image. For example, they could repost all the original images sent out from the camera, but in grayscale. Other accounts could follow both the camera and the keyboard, and aggregate or filter out posts from one depending on the notifications from the other.
 
-Imagine your webcam had its own user account, where it posted new images periodically from time to time. Other accounts could "follow" the camera in order to react whenever the camera posts a new image. For example, they could repost all the original images sent out from the camera, but in grayscale. Other accounts could follow both the camera and the keyboard, and aggregate or filter out posts from one depending on the notifications from the other.
+Observable sequences are asynchronous sequences of data which behave in exactly this way. They can be "followed", or rather subscribed to, so that its observers get notifications whenever there are new values available in the sequence. These notifications can be sent anytime or in reaction to other notifications, depending on the details of the sequence.
+
+Observable sequences can also terminate naturally when there is no more data to send out, or exceptionally, if there is an error with the device or during data processing.
 
 ## The Bonsai visual language
 
-The Bonsai programming language manipulates such reactive networks explicitly using workflow diagrams where observable sequences are represented graphically as colored nodes. Nodes can be connected to other nodes, from left to right.
+The Bonsai programming language manipulates such reactive networks explicitly using workflow diagrams where observable sequences are represented graphically as colored nodes. Nodes can be connected to other nodes, from left to right, indicating that the rightmost node subscribes to the notifications of the leftmost node.
 
 ![Example workflow](/assets/images/sampleframe.svg)
 
@@ -62,6 +64,6 @@ The diagram makes clear that the `Grayscale` operator is reacting to each of the
 
 ![Sample operator](/assets/images/sample.svg)
 
-First, we can see from the connection diagram above that the `Sample` operator subscribes to two sequences: the result from `Grayscale` and also `KeyDown`. The marble diagram shows an hypothetical example of these two independent streams of notifications. `Grayscale` is sending out images periodically, following the camera. However, `KeyDown` sends out a notification only when there is a key press, which can happen at any moment, even in between image notifications.
+First, we can see from the connection diagram above that the `Sample` operator subscribes to two sequences: `Grayscale` and `KeyDown`. The marble diagram shows an hypothetical example of these two independent streams of notifications. `Grayscale` is sending out images periodically, following the camera. However, `KeyDown` sends out a notification only when there is a key press, which can happen at any moment, even in between image notifications.
 
 The diagram makes clear the behavior of `Sample`: it sends out the latest image that was received from `Grayscale` whenever there was a new key press. Marble diagrams are a useful tool to convey graphically the intuition of what a reactive operator is doing and will be used extensively throughout these pages.
