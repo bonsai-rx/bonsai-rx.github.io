@@ -18,7 +18,7 @@ Bonsai is a visual language designed for making software systems that require ri
 
 {% include gallery %}
 
-One of the most important constraints in the development of such systems is time. Events in the world -- even a simple button press -- do not wait for our computer program to be ready. Also, the effects (or actions) determined by software are often not instantaneous, and may require an unspecified amount of time to complete (e.g. moving a robotic arm; sending an email).
+One of the most important constraints in the development of such systems is time. Events in the world---even a simple button press---do not wait for our computer program to be ready. Also, the effects (or actions) determined by software are often not instantaneous, and may require an unspecified amount of time to complete (e.g. moving a robotic arm; sending an email).
 
 Setting up systems to handle these kinds of asynchronous events often requires specialized and careful software engineering, and can quickly become difficult to maintain and change.
 
@@ -26,7 +26,7 @@ Furthermore, in modern systems we are often forced to combine not just one, but 
 
 ![Devices used in interactive systems](/assets/images/devices.jpg)
 
-The core philosophy behind Bonsai is to embrace the natural constraints of the problem -- heterogeneous devices and asynchronous computation -- and provide development tools and languages that make it easier to put together interactive systems.
+The core philosophy behind Bonsai is to embrace the natural constraints of the problem---heterogeneous devices and asynchronous computation---and provide development tools and languages that make it easier to put together interactive systems.
 
 ## A metaphor for asynchronous computation
 
