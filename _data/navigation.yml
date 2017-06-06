@@ -18,3 +18,7 @@ docs:
         url: /docs/packages/
       - title: "Workflow Editor"
         url: /docs/editor/
+  - title: "Language Guide"
+    children:
+      - title: "Observable Sequences"
+        url: /docs/observables/
