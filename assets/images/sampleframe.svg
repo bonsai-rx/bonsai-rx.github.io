@@ -7,8 +7,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="602.4092"
-   height="262.3936"
+   width="481.89285"
+   height="209.89984"
    id="SvgGdi_output"
    version="1.1"
    sodipodi:docname="sampleframe.svg"
@@ -21,6 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,213 +39,199 @@
      id="namedview54"
      showgrid="false"
      inkscape:zoom="1.7988245"
-     inkscape:cx="277.9095"
-     inkscape:cy="176.12753"
+     inkscape:cx="141.70944"
+     inkscape:cy="176.12756"
      inkscape:window-x="-13"
      inkscape:window-y="-13"
      inkscape:window-maximized="1"
-     inkscape:current-layer="SvgGdi_output" />
+     inkscape:current-layer="SvgGdi_output"
+     units="cm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <rect
      id="background"
-     height="100.00%"
-     style="fill:rgb(255,255,255);"
-     width="100.00%"
-     y="0.00"
-     x="0.00" />
+     height="79.99427%"
+     style="fill:#ffffff;stroke-width:0.79994267"
+     width="79.99427%"
+     y="0"
+     x="0" />
   <g
-     style="shape-rendering:auto;"
-     id="root_group">
-    <ellipse
+     style="shape-rendering:auto"
+     id="root_group"
+     transform="scale(0.79994269)">
+    <circle
        id="4"
-       cy="36.00"
-       cx="516.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:6;stroke-linejoin:miter;" />
-    <ellipse
+       cy="36"
+       cx="516"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
+       r="30" />
+    <circle
        id="5"
-       cy="36.00"
-       cx="516.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:none;opacity:1;fill:rgb(169,169,169);" />
+       cy="36"
+       cx="516"
+       style="opacity:1;fill:#a9a9a9;stroke:none"
+       r="30" />
     <g
        aria-label="S"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
        style="font-size:21px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none"
        id="6">
       <path
          d="m 516.33838,43.729682 q -3.17871,0 -4.75781,-1.425293 -1.56885,-1.425292 -1.65088,-3.660644 h 1.91748 q 0.15381,1.681641 1.39453,2.491699 1.25098,0.799805 3.01465,0.799805 1.67138,0 2.68652,-0.687012 1.02539,-0.687012 1.02539,-1.866211 0,-1.240722 -1.05615,-1.804687 -1.05615,-0.563965 -3.64014,-1.107422 -2.57373,-0.553711 -3.70166,-1.527832 -1.11767,-0.974121 -1.11767,-2.594238 0,-1.825196 1.45605,-2.994141 1.46631,-1.168945 3.88623,-1.168945 2.54297,0 4.10156,1.179199 1.5586,1.179199 1.65088,3.332519 h -1.93799 q -0.29736,-2.727539 -3.73242,-2.727539 -1.66113,0 -2.57373,0.625489 -0.9126,0.625488 -0.9126,1.661132 0,0.94336 0.72803,1.415039 0.73828,0.47168 2.7378,0.912598 2.00976,0.440918 3.18896,0.871582 1.1792,0.430664 2.02002,1.343262 0.84082,0.902344 0.84082,2.430176 0,1.937988 -1.54834,3.219726 -1.53809,1.281738 -4.01953,1.281738 z"
-         style=""
-         id="path4542" />
+         id="path4542"
+         inkscape:connector-curvature="0" />
     </g>
     <text
        id="10"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
-       x="486.00"
-       y="76.00"
-       style="stroke:none;clip-path:url(#12_text_clipper);font-family:Microsoft Sans Serif;fill:rgb(0,0,0);font-size:15.75pt;opacity:1;"
+       x="486"
+       y="76"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#12_text_clipper)">
       <tspan
          dy="15.75pt"
          id="14">SaveImage</tspan>
     </text>
-    <ellipse
+    <circle
        id="16"
-       cy="36.00"
-       cx="356.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:6;stroke-linejoin:miter;" />
-    <ellipse
+       cy="36"
+       cx="356"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
+       r="30" />
+    <circle
        id="17"
-       cy="36.00"
-       cx="356.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:none;opacity:1;fill:rgb(173,216,230);" />
+       cy="36"
+       cx="356"
+       style="opacity:1;fill:#add8e6;stroke:none"
+       r="30" />
     <g
        aria-label="S"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
        style="font-size:21px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none"
        id="18">
       <path
          d="m 356.33838,43.729682 q -3.17871,0 -4.75781,-1.425293 -1.56885,-1.425292 -1.65088,-3.660644 h 1.91748 q 0.15381,1.681641 1.39453,2.491699 1.25098,0.799805 3.01465,0.799805 1.67138,0 2.68652,-0.687012 1.02539,-0.687012 1.02539,-1.866211 0,-1.240722 -1.05615,-1.804687 -1.05615,-0.563965 -3.64014,-1.107422 -2.57373,-0.553711 -3.70166,-1.527832 -1.11767,-0.974121 -1.11767,-2.594238 0,-1.825196 1.45605,-2.994141 1.46631,-1.168945 3.88623,-1.168945 2.54297,0 4.10156,1.179199 1.5586,1.179199 1.65088,3.332519 h -1.93799 q -0.29736,-2.727539 -3.73242,-2.727539 -1.66113,0 -2.57373,0.625489 -0.9126,0.625488 -0.9126,1.661132 0,0.94336 0.72803,1.415039 0.73828,0.47168 2.7378,0.912598 2.00976,0.440918 3.18896,0.871582 1.1792,0.430664 2.02002,1.343262 0.84082,0.902344 0.84082,2.430176 0,1.937988 -1.54834,3.219726 -1.53809,1.281738 -4.01953,1.281738 z"
-         style=""
-         id="path4539" />
+         id="path4539"
+         inkscape:connector-curvature="0" />
     </g>
     <text
        id="22"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
-       x="326.00"
-       y="76.00"
-       style="stroke:none;clip-path:url(#24_text_clipper);font-family:Microsoft Sans Serif;fill:rgb(0,0,0);font-size:15.75pt;opacity:1;"
+       x="326"
+       y="76"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#24_text_clipper)">
       <tspan
          dy="15.75pt"
          id="26">Sample</tspan>
     </text>
     <line
-       y1="36.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;"
+       y1="36"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
        id="28"
-       x2="483.00"
-       y2="36.00"
-       x1="389.00" />
-    <ellipse
+       x2="483"
+       y2="36"
+       x1="389" />
+    <circle
        id="29"
-       cy="36.00"
-       cx="196.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:6;stroke-linejoin:miter;" />
-    <ellipse
+       cy="36"
+       cx="196"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
+       r="30" />
+    <circle
        id="30"
-       cy="36.00"
-       cx="196.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:none;opacity:1;fill:rgb(255,255,255);" />
+       cy="36"
+       cx="196"
+       style="opacity:1;fill:#ffffff;stroke:none"
+       r="30" />
     <g
        aria-label="G"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
        style="font-size:21px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none"
        id="31">
       <path
          d="m 196.09229,43.729682 q -3.24024,0 -5.26026,-2.122558 -2.00976,-2.122559 -2.00976,-5.649902 0,-3.537598 1.98925,-5.649903 1.98926,-2.122558 5.21924,-2.122558 2.71729,0 4.51172,1.3125 1.80469,1.302246 2.02002,3.496582 h -2.06104 q -0.12304,-1.456055 -1.3125,-2.276368 -1.18945,-0.830566 -3.13769,-0.830566 -2.32764,0 -3.75293,1.589355 -1.41504,1.589356 -1.41504,4.480958 0,2.881347 1.43555,4.480957 1.43554,1.589355 3.75293,1.589355 3.25049,0 4.82959,-2.143066 v -2.286621 h -3.96826 v -1.794434 h 5.89599 v 7.669922 h -1.40478 l -0.52295,-1.579102 q -1.52783,1.835449 -4.80908,1.835449 z"
-         style=""
-         id="path4536" />
+         id="path4536"
+         inkscape:connector-curvature="0" />
     </g>
     <text
        id="35"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
-       x="166.00"
-       y="76.00"
-       style="stroke:none;clip-path:url(#37_text_clipper);font-family:Microsoft Sans Serif;fill:rgb(0,0,0);font-size:15.75pt;opacity:1;"
+       x="166"
+       y="76"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#37_text_clipper)">
       <tspan
          dy="15.75pt"
          id="39">Grayscale</tspan>
     </text>
     <line
-       y1="36.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;"
+       y1="36"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
        id="41"
-       x2="323.00"
-       y2="36.00"
-       x1="229.00" />
-    <ellipse
+       x2="323"
+       y2="36"
+       x1="229" />
+    <circle
        id="42"
-       cy="196.00"
-       cx="196.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:6;stroke-linejoin:miter;" />
-    <ellipse
+       cy="196"
+       cx="196"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
+       r="30" />
+    <circle
        id="43"
-       cy="196.00"
-       cx="196.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:none;opacity:1;fill:rgb(238,130,238);" />
+       cy="196"
+       cx="196"
+       style="opacity:1;fill:#ee82ee;stroke:none"
+       r="30" />
     <g
        aria-label="K"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
        style="font-size:21px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none"
        id="44">
       <path
          d="m 202.95215,203.47334 h -2.625 l -5.33203,-7.49561 -2.33789,2.28662 v 5.20899 h -1.98926 v -15.03223 h 1.98926 v 7.45459 l 7.33154,-7.45459 h 2.68652 l -6.2959,6.17285 z"
-         style=""
-         id="path4545" />
+         id="path4545"
+         inkscape:connector-curvature="0" />
     </g>
     <text
        id="48"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
-       x="166.00"
-       y="236.00"
-       style="stroke:none;clip-path:url(#50_text_clipper);font-family:Microsoft Sans Serif;fill:rgb(0,0,0);font-size:15.75pt;opacity:1;"
+       x="166"
+       y="236"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#50_text_clipper)">
       <tspan
          dy="15.75pt"
          id="52">KeyDown</tspan>
     </text>
     <line
-       y1="196.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;"
+       y1="196"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
        id="54"
-       x2="323.00"
-       y2="36.00"
-       x1="229.00" />
-    <ellipse
+       x2="323"
+       y2="36"
+       x1="229" />
+    <circle
        id="55"
-       cy="36.00"
-       cx="36.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:6;stroke-linejoin:miter;" />
-    <ellipse
+       cy="36"
+       cx="36"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
+       r="30" />
+    <circle
        id="56"
-       cy="36.00"
-       cx="36.00"
-       rx="30.00"
-       ry="30.00"
-       style="stroke:none;opacity:1;fill:rgb(238,130,238);" />
+       cy="36"
+       cx="36"
+       style="opacity:1;fill:#ee82ee;stroke:none"
+       r="30" />
     <g
        aria-label="C"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
        style="font-size:21px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none"
        id="57">
       <path
          d="m 36.389648,43.729682 q -3.188964,0 -5.096191,-2.091796 -1.896973,-2.102051 -1.896973,-5.680664 0,-3.578614 1.896973,-5.670411 1.907227,-2.10205 5.096191,-2.10205 2.450684,0 4.17334,1.322753 1.722657,1.322754 1.937989,3.486329 h -2.050782 q -0.123047,-1.425293 -1.240722,-2.266114 -1.107422,-0.84082 -2.799317,-0.84082 -2.286621,0 -3.619629,1.579102 -1.333007,1.568847 -1.333007,4.491211 0,2.912109 1.322753,4.49121 1.322754,1.579102 3.588868,1.579102 1.763671,0 2.850586,-0.861328 1.086914,-0.861328 1.230468,-2.460938 h 2.050782 q -0.215332,2.399414 -1.886719,3.711914 -1.671387,1.3125 -4.22461,1.3125 z"
-         style=""
-         id="path4533" />
+         id="path4533"
+         inkscape:connector-curvature="0" />
     </g>
     <text
        id="61"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
-       x="6.00"
-       y="76.00"
-       style="stroke:none;clip-path:url(#63_text_clipper);font-family:Microsoft Sans Serif;fill:rgb(0,0,0);font-size:15.75pt;opacity:1;"
+       x="6"
+       y="76"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#63_text_clipper)">
       <tspan
          dy="15.75pt"
@@ -252,77 +239,76 @@
     </text>
     <text
        id="67"
-       transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) "
-       x="6.00"
-       y="99.77"
-       style="stroke:none;clip-path:url(#69_text_clipper);font-family:Microsoft Sans Serif;fill:rgb(0,0,0);font-size:15.75pt;opacity:1;"
+       x="6"
+       y="99.769997"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#69_text_clipper)">
       <tspan
          dy="15.75pt"
          id="71">Capture</tspan>
     </text>
     <line
-       y1="36.00"
-       style="stroke:rgb(0,0,0);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;"
+       y1="36"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9"
        id="73"
-       x2="163.00"
-       y2="36.00"
-       x1="69.00" />
+       x2="163"
+       y2="36"
+       x1="69" />
   </g>
   <defs
      id="clips_hatches_and_gradients">
     <clipPath
        id="12_text_clipper">
       <rect
-         x="486.00"
-         y="76.00"
+         x="486"
+         y="76"
          width="116.41"
-         height="26.39"
+         height="26.389999"
          id="13" />
     </clipPath>
     <clipPath
        id="24_text_clipper">
       <rect
-         x="326.00"
-         y="76.00"
-         width="80.46"
-         height="26.39"
+         x="326"
+         y="76"
+         width="80.459999"
+         height="26.389999"
          id="25" />
     </clipPath>
     <clipPath
        id="37_text_clipper">
       <rect
-         x="166.00"
-         y="76.00"
+         x="166"
+         y="76"
          width="104.49"
-         height="26.39"
+         height="26.389999"
          id="38" />
     </clipPath>
     <clipPath
        id="50_text_clipper">
       <rect
-         x="166.00"
-         y="236.00"
-         width="99.56"
-         height="26.39"
+         x="166"
+         y="236"
+         width="99.559998"
+         height="26.389999"
          id="51" />
     </clipPath>
     <clipPath
        id="63_text_clipper">
       <rect
-         x="6.00"
-         y="76.00"
-         width="83.94"
-         height="52.79"
+         x="6"
+         y="76"
+         width="83.940002"
+         height="52.790001"
          id="64" />
     </clipPath>
     <clipPath
        id="69_text_clipper">
       <rect
-         x="6.00"
-         y="99.77"
-         width="83.94"
-         height="52.79"
+         x="6"
+         y="99.769997"
+         width="83.940002"
+         height="52.790001"
          id="70" />
     </clipPath>
   </defs>
