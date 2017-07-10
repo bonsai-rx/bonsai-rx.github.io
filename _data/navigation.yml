@@ -20,5 +20,5 @@ docs:
         url: /docs/editor/
   - title: "Language Guide"
     children:
-      - title: "Observable Sequences"
+      - title: "Observables"
         url: /docs/observables/
