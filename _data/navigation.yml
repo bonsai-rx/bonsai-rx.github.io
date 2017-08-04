@@ -22,3 +22,5 @@ docs:
     children:
       - title: "Observables"
         url: /docs/observables/
+      - title: "Operators"
+        url: /docs/operators/
