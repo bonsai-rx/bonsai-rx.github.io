@@ -25,13 +25,11 @@ The Bonsai programming language manipulates such reactive networks explicitly us
 
 ![Example workflow](/assets/images/sampleframe.svg)
 
-By chaining networks of observable sequences in this way, it becomes possible to express very complex interactive systems in a surprisingly compact format. For example, the workflow above describes a system that saves a snapshot from a camera into a file whenever there is a key press.
-
-The essence of learning the Bonsai programming language is to master the art of composing arbitrarily complex interactive systems from elegant networks of simple operators. To get started, we have to go through the basic reactive operators, as well as some details of the Bonsai development environment, which are covered in the [Documentation](/docs/installation/) pages.
+By chaining networks of observable sequences in this way, it becomes possible to express very complex interactive systems in a surprisingly compact format. For example, the workflow above describes a system that saves a grayscale snapshot from a camera into a file whenever there is a key press.
 
 ## Marble diagrams
 
-To understand how this example works, however, we need not only the network of connections -- who follows who -- but also what are the rules for each operator to generate a notification. We use a different representation called a marble diagram to analyse the dynamics and behavior of individual nodes. An example marble diagram for the `Grayscale` operation is shown below.
+To understand how this example works, however, we need to know not only the network of connections -- who follows who -- but also the rules used by each operator to generate notifications. Specifically, for each operator we need to know exactly *what* notifications are sent out, and *when*. In order to analyse the behavior and dynamics of individual nodes, we use a different representation called a marble diagram. An example marble diagram for the `Grayscale` operation is shown below.
 
 ![Grayscale operator](/assets/images/grayscale.svg)
 
