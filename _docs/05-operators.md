@@ -5,7 +5,7 @@ excerpt: "A guide to the reactive operators used to compose observable sequences
 last_modified_at: 
 ---
 
-When building a Bonsai program, we chain together reactive operators to create new observable sequences. There are many different operators, which can generate all kinds of observable sequences. These operators are roughly divided into different categories, depending on how they operate.
+When building a Bonsai program, you chain together reactive operators to create new observable sequences. There are many different operators, which can create all kinds of observable sequences. These operators can be roughly grouped into different categories, depending on their shared characteristics.
 
 | Category                                     | Description                                           |
 | :------------------------------------------: | ----------------------------------------------------- |
@@ -48,6 +48,20 @@ Because the output sequence of a sink is exactly the same as the input sequence,
 
 ## Combinator
 
-Although a lot can be done with the right combination of sources, transforms and sinks, there are many other available operators which can express more complex combinations of observable sequences. These operators are grouped together under the `Combinator` category, but their behavior can be extremely diverse.
+Although a lot can be done with the right sequence of sources, transforms and sinks, there are many other operators which allow you to express more complex combinations of observables. These operators are grouped together under the `Combinator` category, but their behavior can be extremely diverse.
 
 Combinators can be used to merge data from multiple sources; control when observable sequences start and stop; or even to create entirely new sequences dynamically. Together, they provide an incredibly flexible toolkit to manipulate asynchronous data streams.
+
+## Combinators by Category
+
+{% assign operators-by-category = site.operators | group_by: 'category' %}
+{% for category in operators-by-category %}
+{% if site.data.category-text[category.name] %}
+### {{ site.data.category-text[category.name] }}
+{% else %}
+### {{ category.name }}
+{% endif %}
+{% for operator in category.items %}
+* [{{ operator.title }}]({{ operator.url }}) -- {{ operator.excerpt }}
+{% endfor %}
+{% endfor %}

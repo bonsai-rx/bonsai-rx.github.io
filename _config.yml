@@ -204,9 +204,9 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
+#category_archive:
+#  type: liquid
+#  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
@@ -235,6 +235,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  operators:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -253,6 +256,18 @@ defaults:
   - scope:
       path: ""
       type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _operators
+  - scope:
+      path: ""
+      type: operators
     values:
       layout: single
       read_time: false
