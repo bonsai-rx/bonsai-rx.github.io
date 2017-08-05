@@ -9,13 +9,18 @@ Bonsai makes use of a unified model for asynchronous data streams: the observabl
 
 ## A metaphor for asynchronous computation
 
-Think about your favorite social networking service, and how your personal account works within that service. There are usually two main actions available. First, you can post text messages or share content such as pictures or videos. Second, you can follow other accounts so that you get notified whenever they send out their own messages. Very often users will post new messages in reaction to other posts they have just seen.
+Think about your favorite social networking service, and how your personal account works within that service. There are usually two main actions you have available:
+
+1. Post text messages or share content such as pictures or videos.
+2. Follow other accounts so that you get notified whenever they send out their own messages. Very often users will post new messages in reaction to other posts they have just seen.
 
 Social network accounts can also be terminated. The user can naturally close her own account, indicating there will be no more future posts, or the account can be terminated exceptionally by a moderator, perhaps due to a breach in the terms of service.
 
-Now imagine your webcam had its own user account in the social network, where it posted new images periodically from time to time. Other accounts would now be able to "follow" the camera in order to react whenever it posts a new image. They could, for example, repost all the original images shared by the camera, but in grayscale or using other image processing filters. Other devices could have their own accounts, such as keyboards, microphones or temperature sensors. In this case other accounts could, for example, follow both the camera and the keyboard, and aggregate or filter out posts from one depending on the notifications from the other.
+Now imagine you had a webcam with its own user account in the social network. From time to time, the camera would take a picture and post it on the network. Other accounts would now be able to "follow" the camera in order to react whenever it posts a new image. Some of these followers might repost the camera images, either in their original form or with modifications (e.g. a grayscale or colorizing filter).
 
-Observable sequences are asynchronous sequences of data which behave in exactly this way. They can be "followed", or rather subscribed to, so that its observers get notifications whenever there are new values available in the sequence. These notifications can be sent anytime or in reaction to other notifications, depending on the details of the sequence.
+Other devices could have their own accounts, such as keyboards, microphones or temperature sensors. In this case, some users might follow both the camera and the keyboard, and start to aggregate posts by whether they happened close in time. For example, one user might repost an image from the camera only after the keyboard sent out a key press notification.
+
+Observable sequences are asynchronous sequences of data which behave in exactly this way. They are sources of data which can be "followed", or rather subscribed to, so that its observers get notifications whenever there are new values available in the sequence. Observable sequences can generate notifications spontaneously or in reaction to notifications from other sequences they are subscribing.
 
 Observable sequences can also terminate naturally when there is no more data to send out, or exceptionally, if there is an error with the device or during data processing.
 
