@@ -13,7 +13,7 @@ When Bonsai starts you will be taken directly to the workflow editor. This is wh
 
 ## Toolbox
 
-The `Toolbox` allows you to search for available Bonsai modules to place in the workflow. The listing is organized into five main categories:
+The `Toolbox` allows you to search for available Bonsai operators to place in the workflow. The listing is organized into five main categories:
 
 | Category                                     | Description                                           |
 | :------------------------------------------: | ----------------------------------------------------- |
@@ -23,32 +23,31 @@ The `Toolbox` allows you to search for available Bonsai modules to place in the 
 | ![Combinator](/assets/images/combinator.svg) | manage control flow or synchronize parallel inputs    |
 | ![Snippet](/assets/images/snippet.svg)       | reusable workflow fragments stored in `.bonsai` files |
 
-Modules inside each major category are further organized by package namespaces. These namespaces come from the packages you have installed at any given moment. The name of each namespace can give you a hint about what kind of operations or devices are controlled by modules inside that namespace (e.g. the `Audio` namespace provides access to audio capture devices or WAV file readers).
+Operators inside each major category are further organized by package namespaces. These namespaces come from the packages you have installed at any given moment. The name of each namespace can give you a hint about what kind of operations or devices can be accessed inside (e.g. the `Audio` namespace provides access to audio capture devices or WAV file readers).
 
-Once you have found which module you want to insert, you can place it by double-clicking, dragging it to the workflow or alternatively right-clicking and selecting a specific placement option (see below).
+Once you have found which operator you want to insert, you can place it by double-clicking, dragging it to the workflow or alternatively right-clicking and selecting a specific placement option (see below).
 
-### Search Modules
+### Search Operators
 
-Another way to quickly find modules is to use the `Search` textbox. Any text inserted here is matched against available module or namespace names for a match in any order. This means you can search not only for a specific module name but also by category names to locate all the modules in a namespace (e.g. try typing `Arduino`).
+Another way to quickly find operators is to use the `Search` textbox. Any text inserted here is matched against available operator or namespace names for a match in any order. This means you can search not only for a specific operator name but also by category names to locate all the operators in a namespace (e.g. try typing `Arduino`).
 
-**ProTip:** You can directly type and search for module names even when the `Workflow` panel is selected. You can then quickly pick which module you want with the up/down arrow keys and hit the `Return` key to place it. Repeat this process to very quickly chain a sequence of Bonsai operators.
+**ProTip:** You can also directly type and search for operator names when the `Workflow` panel has the input focus. This allows you to simply start typing an operator name and directly select which operator you want with the up/down arrow keys. Once you have the right operator, hit the `Return` key to place it. You can repeat the process multiple times to very quickly chain a sequence of operators.
 {: .notice--info}
 
 ## Workflow
 
-The `Workflow` panel is where you compose different modules to create data processing
-pipelines or other asynchronous computations. Each module in Bonsai is represented by a circular node. Nodes can be connected together, forming a directed feedforward graph from left to right. Connections indicate which modules subscribe to which other modules (see the [Introduction](/introduction/) and the Language Guide for an extended discussion).
+The `Workflow` panel is where you place reactive operators to create data processing pipelines or other asynchronous computations. Each operator in Bonsai is represented by a circular node. Nodes can be connected together, forming a directed feedforward graph from left to right. Connections indicate which operators receive data from which other operators (see the [Introduction](/introduction/) and the [Language Guide](/docs/observables/) for an extended discussion).
 
 The most useful action to learn your way around the `Workflow` panel is right-clicking. This will bring up the context menu for the specific node you selected, or a list of possible actions you can do with the current selection:
 
 ![The workflow context menu](/assets/images/contextmenu.png)
 
-If only one node is selected, the `Output` menu item will display the type of the elements emitted in the observable sequence of that module.
+If only one node is selected, the `Output` menu item will display the type of the elements emitted in the observable sequence of that operator.
 
-**ProTip:** If the output of a module is a complex type, you can also inspect its public data members from the context menu. Clicking on any one of these members will automatically place a new `MemberSelector` transform which selects that member from the output.
+**ProTip:** If the output of an operator is a complex type, you can also inspect its public data members from the context menu. Clicking on any one of these members will automatically place a new `MemberSelector` transform which selects that member from the output.
 {: .notice--info}
 
-The context menu also allows you to externalize public properties of the module into explicit nodes in the workflow, so you can change their values dynamically based on the output of other nodes (see the Language Guide for more information).
+The context menu also allows you to externalize public properties of the operator into explicit nodes in the workflow, so you can change their values dynamically based on the output of other nodes (see the Language Guide for more information).
 
 Finally, it is possible to group nodes into nested workflows both for organizational and more advanced functional purposes. The most basic grouping is the logical group which allows you to encapsulate a workflow fragment inside a single node. This `NestedWorkflow` can be assigned a `Name` and `Description` for ease of reference. Any named properties which are externalized by nodes in the group will be shown as properties of the `NestedWorkflow` so you can literally treat the group as a single node.
 
@@ -80,11 +79,11 @@ It is possible to organize snippets into folders so you can search them by keywo
 
 ## Properties
 
-Each Bonsai module has its own distinct set of configuration properties that specify the behaviour of individual nodes (e.g. the `Timer` module exposes the period between generated values, whereas a `Threshold` on images exposes the brightness cutoff value applied to individual pixels).
+Each Bonsai operator exposes a set of configuration properties that parameterize the operator's behaviour (e.g. the `Timer` operator exposes the period between generated values, whereas a `Threshold` on images exposes the brightness cutoff value applied to individual pixels).
 
-The `Properties` panel will display all the configuration properties exposed by the currently selected node. A summary description of the currently selected property can be found in the textbox at the bottom of the panel. Similarly, a description of the behaviour of the currently selected node itself is shown at the top of the panel.
+The `Properties` panel will display all the configuration properties which are available for the currently selected operator. A summary description of the currently selected property can be found in the textbox at the bottom of the panel. Similarly, a description of the behaviour of the currently selected operator itself is shown at the top of the panel.
 
 Most properties can be configured simply by changing the text value in the corresponding row of the property grid. Some properties have further specialized editors which can be accessed by clicking the drop-down or dialog button which will be displayed to the right of the property text.
 
-**ProTip:** Some modules have even more specialized editor windows such as camera configuration dialogs or media player controls. If such property pages exist for the currently selected module, the small `Property Pages` button above the property grid will become active.
+**ProTip:** Some operators have even more specialized editor windows such as camera configuration dialogs or media player controls. If such property pages exist for the currently selected operator, the small `Property Pages` button above the property grid will become active.
 {: .notice--info}
