@@ -18,6 +18,8 @@ docs:
         url: /docs/packages/
       - title: "Workflow Editor"
         url: /docs/editor/
+      - title: "Bonsai Gallery"
+        url: /docs/gallery/
   - title: "Language Guide"
     children:
       - title: "Observables"
