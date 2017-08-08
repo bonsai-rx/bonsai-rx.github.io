@@ -34,7 +34,7 @@ By chaining networks of observable sequences in this way, it becomes possible to
 
 ## Marble diagrams
 
-To understand how this example works, however, we need to know not only the network of connections -- who follows who -- but also the rules used by each operator to generate notifications. Specifically, for each operator we need to know exactly *what* notifications are sent out, and *when*. In order to analyse the behavior and dynamics of individual nodes, we use a different representation called a marble diagram. An example marble diagram for the `Grayscale` operation is shown below.
+To understand how this example works, however, we need to know not only the network of connections -- who follows who -- but also the rules used by each operator to generate notifications. Specifically, for each operator we need to know exactly *what* notifications are sent out, and *when*. In order to analyse the behaviour and dynamics of individual nodes, we use a different representation called a marble diagram. An example marble diagram for the `Grayscale` operation is shown below.
 
 ![Grayscale operator](/assets/images/grayscale.svg)
 
@@ -46,4 +46,4 @@ The diagram makes clear that the `Grayscale` operator is reacting to each of the
 
 First, we can see from the connection diagram above that the `Sample` operator subscribes to two sequences: `Grayscale` and `KeyDown`. The marble diagram shows an hypothetical example of these two independent streams of notifications. `Grayscale` is sending out images periodically, following the camera. However, `KeyDown` sends out a notification only when there is a key press, which can happen at any moment, even in between image notifications.
 
-The diagram makes clear the behavior of `Sample`: it sends out the latest image that was received from `Grayscale` whenever there was a new key press. Marble diagrams are a useful tool to convey graphically the intuition of what a reactive operator is doing and will be used extensively throughout these pages.
+The diagram makes clear the behaviour of `Sample`: it sends out the latest image that was received from `Grayscale` whenever there was a new key press. Marble diagrams are a useful tool to convey graphically the intuition of what a reactive operator is doing and will be used extensively throughout these pages.

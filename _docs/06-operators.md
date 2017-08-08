@@ -53,14 +53,14 @@ For this reason, all sinks also share a very similar style of marble diagram:
 
 ![Sink operator](/assets/images/sink-marble.svg)
 
-Because the output sequence of a sink is exactly the same as the input sequence, sinks can always be placed at any point of the workflow without breaking existing behavior.
+Because the output sequence of a sink is exactly the same as the input sequence, sinks can always be placed at any point of the workflow without breaking existing behaviour.
 
 **ProTip:** You can chain multiple sinks sequentially as long as the input is compatible. This can be very convenient when you need to run multiple side-effects on a single data stream. A common application is to log data into a file while simultaneously transmitting it to an external device.
 {: .notice--info}
 
 ## Combinator
 
-Although a lot can be done with the right sequence of sources, transforms and sinks, there are many other operators which allow you to express more complex combinations of observables. These operators are grouped together under the `Combinator` category, but their behavior can be extremely diverse.
+Although a lot can be done with the right sequence of sources, transforms and sinks, there are many other operators which allow you to express more complex combinations of observables. These operators are grouped together under the `Combinator` category, but their behaviour can be extremely diverse.
 
 Combinators can be used to merge data from multiple sources; control when observable sequences start and stop; or even to create entirely new sequences dynamically. Together, they provide an incredibly flexible toolkit to manipulate asynchronous data streams.
 
