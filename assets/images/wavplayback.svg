@@ -7,8 +7,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="381.07144"
-   height="81.914803"
+   width="100mm"
+   height="21.673292mm"
    id="SvgGdi_output"
    version="1.1"
    sodipodi:docname="wavplayback.svg"
@@ -39,7 +39,7 @@
      id="namedview32"
      showgrid="false"
      inkscape:zoom="2.3638612"
-     inkscape:cx="23.263323"
+     inkscape:cx="-82.072811"
      inkscape:cy="82.570794"
      inkscape:window-x="-13"
      inkscape:window-y="-13"
@@ -48,11 +48,12 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     units="mm" />
   <g
      style="shape-rendering:auto"
      id="root_group"
-     transform="matrix(0.8,0,0,0.8,-1.2062988e-6,-3.1890869e-7)">
+     transform="matrix(0.8,0,0,0.8,-1.2062988e-6,-5.2449745e-6)">
     <circle
        id="4"
        cy="36"
