@@ -15,13 +15,13 @@ Using the `ConvertScale` operator you could set the volume manually by changing 
 
 But imagine you wanted to design a variation of this workflow where the playback volume is now modulated continuously depending on some other variable, for example the horizontal position of the mouse cursor as it moves across the screen.
 
-One simple way to do this would be to rescale the X coordinate of mouse movements to a range between zero and one:
+A simple way to compute the desired scale value would be to rescale the X coordinate of mouse movements to a range between zero and one:
 
 ![Rescaled mouse position](/assets/images/mouserescale.svg)
 
-However, how would you now convert the sequence of scale values computed from the mouse position to updates in the `Scale` property of the `ConvertScale` node?
+However, how would you now connect the sequence of scale values computed from the mouse position to changes in the `Scale` property of the `ConvertScale` node?
 
-Property mapping operators allow you to do exactly this. They are operators that take a single input sequence and react to notifications from that sequence by changing the specified properties of the *subsequent* node. There are three types of property mapping operators, described below.
+Property mapping operators allow you to do exactly this. They are operators that take a single input sequence and react to notifications from that sequence by changing the values of the specified properties in the *subsequent* node. There are three types of property mapping operators, described below.
 
 | Mapping Type | Description |
 | :----------: | ----------- |
@@ -35,9 +35,9 @@ The first type of property mapping operator is called an externalized property. 
 
 ![Externalized property](/assets/images/externalizedproperty.png)
 
-After the specified property has been externalized, it can be subscribed to any input sequence which is compatible with the data type of the property. Every time the input sequence emits a new value, the externalized property will react by changing the target property to the incoming value.
+After the specified property has been externalized, it can be subscribed to any input sequence which is compatible with the data type of the property. Every time the input sequence emits a new item, the externalized property will react by changing the target property to the incoming value.
 
-Property values are updated independently of what the target operator might be doing at any point in time. Specifically, the connection between the externalized property and its target is not considered as an active input. This is indicated in the editor by the red colored edge linking the property mapping operator to its target.
+Property values are updated independently of what the target operator might be doing at any point in time. Specifically, the connection between the externalized property and its target is not considered as an active input. This is indicated in the editor by the red coloured edge linking the property mapping operator to its target.
 
 This means that property updates may happen even while the target operator is receiving input notifications from other nodes. Care must be taken to ensure that changing the property state in this way does not break the behaviour of the workflow.
 
@@ -57,10 +57,10 @@ Every time the input sequence sends out a new data item, all the specified prope
 
 ## Mapping properties from input data
 
-Sometimes we need to synchronize the property update with the node inputs, i.e. we do not want the property mapping operator to change the property values in between notifications.
+Sometimes you need to synchronize the property update with the node inputs, i.e. you do not want the property mapping operator to change the property values in between input notifications.
 
-For example, imagine a transform operator which is converting the input from one format to another, where the format specification is given by a set of operator properties. We may need the target format to change dynamically from time to time, but we may also need to guarantee that parts of the format specification do not change while the operator was converting some other input. The `InputMapping` operator allows you to do this by synchronizing property updates with input notifications.
+For example, imagine a transform operator which is converting the input from one format to another, where the format specification is given by a set of operator properties. You may need the target format to change dynamically from time to time, but you may also need to guarantee that parts of the format specification do not change while the operator was converting some other input. The `InputMapping` operator allows you to do this by synchronizing property updates with input notifications.
 
 Fundamentally, the `InputMapping` operator works exactly the same way as `PropertyMapping`, but now the connection from the mapping operator to its target node is considered as a proper input. It is possible to select which specific member of the original input data will be used as the input data to the target by setting the `Selector` property of `InputMapping`.
 
-Whenever the original input sequence sends out a new data item, all the specified property mappings will be updated at the same time before this item is finally allowed to go through and notify the target. In this way, we can be sure that no property changes are performed between input notifications.
+Whenever the original input sequence sends out a new data item, all the specified property mappings will be updated at the same time before this item is finally allowed to go through and notify the target. In this way, you can be sure that no property changes are performed between input notifications.
