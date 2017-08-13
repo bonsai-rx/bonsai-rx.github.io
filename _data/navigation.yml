@@ -28,3 +28,5 @@ docs:
         url: /docs/operators/
       - title: "Property Mapping"
         url: /docs/property-mapping/
+      - title: "Higher Order Operators"
+        url: /docs/higher-order/
