@@ -49,3 +49,21 @@ The diagram shows that the `Grayscale` operator is reacting to each of the input
 We can see from the workflow diagram above that the `Sample` operator subscribes to two sequences: `Grayscale` and `KeyDown`. The marble diagram shows an hypothetical example of these two independent streams. `Grayscale` is sending out images periodically, following the camera. However, `KeyDown` sends out a notification only when there is a key press, which can happen at any moment, even in between camera images.
 
 The diagram makes clear the behaviour of `Sample`: it sends out the latest image that was received from `Grayscale` whenever there was a new key press. Marble diagrams are a useful tool to convey graphically the intuition of what a reactive operator is doing and will be used extensively throughout these pages.
+
+## Hot versus cold observable sequences {#temperature}
+
+Some of the most subtle, but very important, aspects of the behaviour of observable sequences are the effects of subscription. When an image processing operator subscribes to a sequence of frames from a camera, that camera is turned on and acquisition is started. When the same operator subscribes to a sequence of frames from a video file, that file is opened and frames begin to be decoded into memory. These and other subscription side effects are necessary in order to generate the data items emitted from a sequence.
+
+The effects of subscription can have very different implications on the behaviour of reactive operators, depending on the nature of the underlying observable sequence. Consider again the difference between a video camera and a video file.
+
+A video camera generates a live broadcast of images. If an operator subscribes to the camera at any one time, it will get the images that are being captured by the camera at that time. If another operator subscribes to the camera at a later time, it will not receive the same images that the first operator received. When observable sequences have this fire-and-forget behaviour, they are said to be *hot*.
+
+A video file also generates a sequence of images, but in contrast to the camera, these images are generated on-demand. They are permanently stored on disk, and whenever an operator subscribes to the file, all the images can be played back from the beginning. Every operator will receive all the frames from the file, no matter when they subscribe to the sequence. When observable sequences have this on-demand behaviour, they are said to be *cold*.
+
+Understanding the *temperature* of an observable sequence is particularly important when that sequence is shared between multiple operators. It can help to understand whether those operators will see the same data items, and what the effects of subscribing to the shared sequence at different times are going to be.
+
+It is also possible to change the temperature of observable sequences using reactive operators. One operator can subscribe to the camera and start recording all incoming images. It can then replay all images on-demand to every downstream operator, even if they subscribe late. The originally *hot* sequence has been turned into a *cold* observable by this replay behaviour.
+
+Conversely, another operator can subscribe to a video file and start posting all the images to downstream operators. However, when other operators subscribe to it, instead of requesting a new subscription to the video, it simply starts to share the images coming from the original subscription, at whatever point of the video it is in. The originally *cold* sequence has been turned into a *hot* observable by this sharing, or publishing, behaviour.
+
+In the Bonsai visual language, whenever two operators receive data from the same source, i.e. whenever there are branches in the workflow, subscriptions are shared by default. This means that the default sharing behaviour of Bonsai sequences is *hot* by default. It is possible to change this by using specialized sharing operators, called [Subjects](/docs/subjects/).

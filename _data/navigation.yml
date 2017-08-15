@@ -30,3 +30,5 @@ docs:
         url: /docs/property-mapping/
       - title: "Higher Order Operators"
         url: /docs/higher-order/
+      - title: "Subjects"
+        url: /docs/subjects/
