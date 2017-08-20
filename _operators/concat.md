@@ -7,7 +7,7 @@ category: 'combining'
 last_modified_at: 
 ---
 
-The concat operator allows you to combine the output of multiple observables so that you can treat them as if they were the same observable. This is done by concatenating the notifications from the input observables sequentially, such that the next sequence starts only after the previous sequence has terminated, as described in the marble diagram below.
+The `Concat` operator allows you to combine the output of multiple observables so that you can treat them as if they were the same observable. This is done by concatenating the notifications from the input observables sequentially, such that the next sequence starts only after the previous sequence has terminated, as described in the marble diagram below.
 
 ![Concat operator](/assets/images/concat.svg)
 
