@@ -19,9 +19,9 @@ Bonsai is a visual language designed for making software systems that require ri
 
 {% include gallery %}
 
-One of the most important challenges in the development of such systems is dealing with time. Computers work by running sequences of instructions one after the other. However, events in the world---even a simple button press---do not wait for our programs to be ready. Also the effects (or actions) determined by software are often not instantaneous, and may require an unspecified amount of time to complete (e.g. moving a robotic arm; sending an email).
+One of the most important challenges in the development of such systems is dealing with time. Computers work by running sequences of instructions one after the other. However, events in the world---even a simple button press---do not wait for our programs to be ready. Also the effects (or actions) determined by software are often not instantaneous, and may require an unspecified amount of time to complete, e.g. moving a robotic arm or sending an email.
 
-Setting up systems to handle these kinds of asynchronous events often requires specialized and careful software engineering, and can quickly become difficult to maintain and change.
+Setting up systems to handle these kinds of asynchronous events often requires specialized and careful software engineering, and they can quickly become difficult to maintain and change.
 
 Furthermore, in modern systems we are often forced to combine not just one, but a large number of devices, each with their own independent processing units. Managing all of these different parallel components can be a challenge even for experienced programmers.
 
@@ -37,7 +37,7 @@ In the Bonsai programming language, interactive systems are assembled by graphic
 
 Using Bonsai, it becomes possible to express complex interactive systems in a surprisingly compact format. For example, the workflow above describes a system that saves a snapshot from a camera into a file whenever there is a key press.
 
-The essence of learning the Bonsai programming language is to master the art of composing arbitrarily complex interactive systems from elegant networks of simple operators. To get started, we introduce the basic reactive operators, as well as some details of the Bonsai development environment, in the [Documentation](/docs/installation/) pages.
+The essence of learning the Bonsai programming language is to master the art of composing arbitrarily complex interactive systems from elegant networks of simple operators. For a more in-depth discussion and an introduction to all the basic reactive operators, see the [Language Guide](/docs/observables/).
 
 ## A modular toolbox for interactive systems
 
@@ -46,3 +46,5 @@ Bonsai comes with an extensive collection of built-in packages and an integrated
 ![Object tracking example](/assets/images/subtraction.png)
 
 The integrated editor is fully extensible and allows you to easily develop your own custom reactive operators in Python, C# or any other .NET programming language. Packages that you develop can be immediately shared with the Bonsai community using the integrated NuGet package manager.
+
+You can find installation instructions and more details of the Bonsai development environment in the [Getting Started](/docs/installation/) section.
