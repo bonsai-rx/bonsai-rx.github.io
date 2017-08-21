@@ -5,6 +5,8 @@ excerpt: "A guide to the reactive operators used to compose observable sequences
 last_modified_at: 
 ---
 
+{% include toc icon="columns" title="Operators" %}
+
 When building a Bonsai program, you chain together reactive operators to create new observable sequences. There are many different operators, which can create all kinds of observable sequences. These operators can be roughly grouped into different categories, depending on their shared characteristics.
 
 | Category                                     | Description                                           |
@@ -65,13 +67,16 @@ Although a lot can be done with the right sequence of sources, transforms and si
 Combinators can be used to merge data from multiple sources; control when observable sequences start and stop; or even to create entirely new sequences dynamically. Together, they provide an incredibly flexible toolkit to manipulate asynchronous data streams.
 
 ## Combinators by Category
+{: .no_toc}
 
 {% assign operators-by-category = site.operators | group_by: 'category' %}
 {% for category in operators-by-category %}
 {% if site.data.category-text[category.name] %}
 ### {{ site.data.category-text[category.name] }}
+{: .no_toc}
 {% else %}
 ### {{ category.name }}
+{: .no_toc}
 {% endif %}
 {% for operator in category.items %}
 * [{{ operator.title }}]({{ operator.url }}) -- {{ operator.excerpt }}
