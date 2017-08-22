@@ -1,7 +1,7 @@
 ---
 title: "Merge"
 permalink: /docs/operators/merge
-excerpt: "Combines multiple observables into one by merging all their notifications."
+excerpt: "Combine multiple observables into one by merging all their notifications."
 breadcrumbs: true
 category: 'combining'
 last_modified_at: 

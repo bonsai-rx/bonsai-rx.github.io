@@ -1,7 +1,7 @@
 ---
 title: "Concat"
 permalink: /docs/operators/concat
-excerpt: "Creates a single sequence by concatenating multiple observables one after the other."
+excerpt: "Create a single sequence by concatenating multiple observables one after the other."
 breadcrumbs: true
 category: 'combining'
 last_modified_at: 

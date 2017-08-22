@@ -1,7 +1,7 @@
 ---
 title: "Zip"
 permalink: /docs/operators/zip
-excerpt: "Combines the items emitted by all the observables, matching items by the order that they arrived."
+excerpt: "Combine the items emitted by all the observables, matching items by the order that they arrived."
 breadcrumbs: true
 category: 'combining'
 last_modified_at: 

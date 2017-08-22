@@ -1,7 +1,7 @@
 ---
 title: "CombineLatest"
 permalink: /docs/operators/combinelatest
-excerpt: "Combines the latest items emitted by all the observables whenever any input changes."
+excerpt: "Combine the latest items emitted by all the observables whenever any input changes."
 breadcrumbs: true
 category: 'combining'
 last_modified_at: 
