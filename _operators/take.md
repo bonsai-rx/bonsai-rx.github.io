@@ -1,7 +1,7 @@
 ---
 title: "Take"
 permalink: /docs/operators/take
-excerpt: "Emits only the first *n* items from an observable sequence."
+excerpt: "Emit only the first *n* items from an observable sequence."
 breadcrumbs: true
 category: 'filtering'
 last_modified_at: 
