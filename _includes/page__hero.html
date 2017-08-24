@@ -28,7 +28,7 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
-        {% if page.header.image %}<img style="vertical-align:bottom" src="{{ img_path }}"/>{% endif %}
+        {% if page.header.image %}<img style="vertical-align:bottom;min-width:50px" width="6%" src="{{ img_path }}"/>{% endif %}
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
