@@ -1,6 +1,7 @@
 ---
 title: "Installing Bonsai"
 permalink: /docs/installation/
+redirect_from: /docs/
 excerpt: "A quick start guide to installing and running the Bonsai editor."
 last_modified_at: 
 ---
