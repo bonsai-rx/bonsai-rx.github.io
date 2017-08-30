@@ -23,13 +23,13 @@ The `Toolbox` allows you to search for available Bonsai operators to place in th
 | ![Combinator](/assets/images/combinator.svg) | manage control flow or synchronize parallel inputs    |
 | ![Snippet](/assets/images/snippet.svg)       | reusable workflow fragments stored in `.bonsai` files |
 
-Operators inside each major category are further organized by package namespaces. These namespaces come from the packages you have installed at any given moment. The name of each namespace can give you a hint about what kind of operations or devices can be accessed inside (e.g. the `Audio` namespace provides access to audio capture devices or WAV file readers).
+Operators inside each major category are further organized by package namespaces. These namespaces come from the packages you have installed at any given moment. The name of each namespace can give you a hint about what kind of operations or devices can be accessed inside (e.g., the `Audio` namespace provides access to audio capture devices or WAV file readers).
 
-Once you have found which operator you want to insert, you can place it by double-clicking, dragging it to the workflow or alternatively right-clicking and selecting a specific placement option (see below).
+Once you have found which operator you want to insert, you can place it by double-clicking, dragging it to the workflow or alternatively right-clicking and selecting a specific placement option. See the [Commands and Shortcuts](#commands-and-shortcuts) section for more information.
 
 ### Search Operators
 
-Another way to quickly find operators is to use the `Search` textbox. Any text inserted here is matched against available operator or namespace names for a match in any order. This means you can search not only for a specific operator name but also by category names to locate all the operators in a namespace (e.g. try typing `Arduino`).
+Another way to quickly find operators is to use the `Search` textbox. Any text inserted here is matched against available operator or namespace names for a match in any order. This means you can search not only for a specific operator name but also by category names to locate all the operators in a namespace (e.g., try typing `Arduino`).
 
 **ProTip:** You can also directly type and search for operator names when the `Workflow` panel has the input focus. This allows you to simply start typing an operator name and directly select which operator you want with the up/down arrow keys. Once you have the right operator, press the `Enter` key to place it. You can repeat the process multiple times to very quickly chain a sequence of operators.
 {: .notice--info}
@@ -79,7 +79,7 @@ It is possible to organize snippets into folders so you can search them by keywo
 
 ## Properties
 
-Each Bonsai operator exposes a set of configuration properties that parameterize the operator's behaviour (e.g. the `Timer` operator exposes the period between generated values, whereas a `Threshold` on images exposes the brightness cutoff value applied to individual pixels).
+Each Bonsai operator exposes a set of configuration properties that parameterize the operator's behaviour (e.g., the `Timer` operator exposes the period between generated values, whereas a `Threshold` on images exposes the brightness cutoff value applied to individual pixels).
 
 The `Properties` panel will display all the configuration properties which are available for the currently selected operator. A summary description of the currently selected property can be found in the textbox at the bottom of the panel. Similarly, a description of the behaviour of the currently selected operator itself is shown at the top of the panel.
 
@@ -91,6 +91,18 @@ Most properties can be configured simply by changing the text value in the corre
 ## Commands and Shortcuts
 
 Below is a summary of the most used commands and shortcuts in the workflow editor:
+
+### Running the workflow
+{: .no_toc}
+
+* Click the arrow `Start` button
+* Press `F5`
+
+### Stopping the workflow
+{: .no_toc}
+
+* Click the square `Stop` button
+* Press `Shift`+`F5`
 
 ### Insert an operator after the selected node
 {: .no_toc}
@@ -105,13 +117,13 @@ Below is a summary of the most used commands and shortcuts in the workflow edito
 {: .no_toc}
 
 * Right-click the operator name and select the `Insert Before` option
-* Hold the `Shift` key together with any of the above commands, e.g. `Shift`+`Enter`
+* Hold the `Shift` key together with any of the above commands (e.g., `Shift`+`Enter`)
 
 ### Insert an operator as a new branch of the selected node
 {: .no_toc}
 
 * Right-click the operator name and select the `Create Branch` option
-* Hold the `Alt` key together with any of the above commands, e.g. `Ctrl`+`Alt`+`V`
+* Hold the `Alt` key together with any of the above commands (e.g., `Ctrl`+`Alt`+`V`)
 
 ### Create a connection between two operators
 {: .no_toc}
@@ -132,7 +144,7 @@ Below is a summary of the most used commands and shortcuts in the workflow edito
 * While holding the `Shift` key, press the arrow keys to select a string of nodes around the currently selected node
 * Hold the `Ctrl` key and click on a node to add/remove it from the current selection
 
-**ProTip:** Many operations can be performed on multi-node selections, e.g. delete, create connections, create a node group, etc.
+**ProTip:** Many operations can be performed on multi-node selections (e.g., delete, create connections, create a node group, etc.).
 {: .notice--info}
 
 ### Open the type visualizer for an operator
