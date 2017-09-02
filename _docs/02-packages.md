@@ -5,7 +5,7 @@ excerpt: "Using the package manager to install Bonsai extensions."
 last_modified_at: 
 ---
 
-Bonsai can be extended by installing software packages containing operators designed for specific tasks, such as video processing or GLSL shaders.
+Bonsai can be extended by installing software packages containing operators designed for specific tasks, such as video processing or OpenGL shaders.
 
 ## Install dependencies
 
