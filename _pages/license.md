@@ -1,3 +1,10 @@
+---
+title: "License"
+layout: single
+permalink: /license/
+author_profile: false
+---
+
 Copyright (C) 2011-2019 Gonçalo Lopes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
