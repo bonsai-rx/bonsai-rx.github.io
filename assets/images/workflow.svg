@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="condition.svg"
+   sodipodi:docname="workflow.svg"
    inkscape:export-filename="C:\Projects\Bonsai.Packages\Externals\Bonsai\BonsaiSource16.png"
    inkscape:export-xdpi="1.4082111"
    inkscape:export-ydpi="1.4082111">
@@ -317,7 +317,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.3215277"
-     inkscape:cx="57.361737"
+     inkscape:cx="96.005479"
      inkscape:cy="22.677201"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -350,6 +350,22 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(2229.1359,-1630.6082)">
+    <g
+       transform="translate(-2414.7962,1636.3523)"
+       style="shape-rendering:auto"
+       id="g35">
+      <circle
+         r="22.677166"
+         style="opacity:1;fill:#eec04b;stroke:none;stroke-width:1.51181102"
+         cx="215.48697"
+         cy="18.822834"
+         id="124" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 195.13195,8.014194 c 0.6875,-1.3024693 1.49928,-2.5391727 2.42503,-3.6909094 0.92586,-1.152039 1.96542,-2.2191114 3.10915,-3.1820165 1.1435,-0.96305625 2.39086,-1.821794 3.73202,-2.5570126 M 193.49536,25.702529 c -0.46905,-1.518061 -0.77247,-3.048217 -0.92261,-4.570058 -0.1493,-1.522143 -0.14393,-3.036575 0.006,-4.524248 0.15004,-1.487218 0.4445,-2.947677 0.87345,-4.361873 m 11.28937,26.911148 c -1.30229,-0.687293 -2.53916,-1.499163 -3.69106,-2.424876 -1.15194,-0.925713 -2.21895,-1.965421 -3.18186,-3.108993 -0.96273,-1.143573 -1.82149,-2.391011 -2.55686,-3.732184 m 26.97012,10.929102 c -1.51821,0.46913 -3.04837,0.772561 -4.57022,0.922689 -1.52214,0.149372 -3.03642,0.144081 -4.52393,-0.01185 -1.4875,-0.149674 -2.94783,-0.444336 -4.36219,-0.873252 m 27.01698,-11.225426 c -0.68748,1.302167 -1.49923,2.539173 -2.42503,3.691061 -0.92567,1.151888 -1.96572,2.21896 -3.10913,3.181865 -1.1435,0.962905 -2.39086,1.821643 -3.73204,2.556862 m 10.90209,-26.967091 c 0.46911,1.518212 0.77247,3.048217 0.92267,4.570209 0.14948,1.522143 0.14393,3.036726 -0.006,4.523945 -0.14998,1.487521 -0.44444,2.94798 -0.87338,4.362176 M 226.23306,-1.5105413 c 1.30231,0.6874437 2.53919,1.49931378 3.69107,2.42487587 1.15196,0.92586443 2.21897,1.96572333 3.18186,3.10914533 0.9628,1.1437238 1.82164,2.3910102 2.55701,3.7323344 M 208.69138,-3.1735903 c 1.51821,-0.4691308 3.04806,-0.7724105 4.57006,-0.9226896 1.52229,-0.1492208 3.03642,-0.1439293 4.52394,0 1.48755,0.1499768 2.94798,0.4444875 4.36233,0.8734029"
+         id="125"
+         style="opacity:1;fill:none;stroke:#a9a9a9;stroke-width:3.02372456;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9" />
+    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.43092346px;line-height:1.25;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -359,33 +375,6 @@
          sodipodi:role="line"
          id="tspan82"
          x="-2161.2805"
-         y="1660.3401">Condition</tspan></text>
-    <g
-       transform="matrix(1.22705,0,0,1.22705,-2351.1567,1626.0327)"
-       id="g50">
-      <circle
-         id="273"
-         cx="123.75"
-         cy="23.75"
-         style="opacity:1;fill:#eec04b;stroke:none;stroke-width:1.25;shape-rendering:auto"
-         r="18.75" />
-      <circle
-         style="opacity:1;fill:none;stroke:#a9a9a9;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;shape-rendering:auto"
-         id="274"
-         cx="123.75"
-         cy="23.75"
-         r="18.75" />
-      <path
-         id="275"
-         style="opacity:1;fill:none;stroke:#ffffff;stroke-width:3.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;shape-rendering:auto"
-         d="m 118.82625,18.45375 c 0,-1.766501 1.48025,-3.8005 3.3985,-4.20275 2.04325,-0.514775 4.3845,0.601475 5.16075,2.584375 0.70691,1.667875 0.0799,3.706125 -1.32888,4.80525 -0.84938,0.801425 -2.13249,1.211175 -2.60149,2.363 -0.35299,1.139125 -0.25422,2.437875 -0.25114,3.537125"
-         inkscape:connector-curvature="0" />
-      <circle
-         id="276"
-         cx="123.35"
-         cy="32"
-         style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.25;shape-rendering:auto"
-         r="2.2624998" />
-    </g>
+         y="1660.3401">Workflow</tspan></text>
   </g>
 </svg>

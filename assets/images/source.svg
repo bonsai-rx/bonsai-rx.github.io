@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="35mm"
+   width="38mm"
    height="12mm"
-   viewBox="0 0 34.999998 12"
+   viewBox="0 0 37.999998 12"
    version="1.1"
    id="svg4596"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="source.svg">
   <defs
      id="defs4590">
@@ -27,6 +27,15 @@
          height="26.389999"
          id="13" />
     </clipPath>
+    <clipPath
+       id="48_text_clipper">
+      <rect
+         x="6"
+         y="556"
+         width="152.60001"
+         height="26.389999"
+         id="49" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -36,15 +45,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.9407661"
-     inkscape:cx="88.837848"
+     inkscape:cx="42.251348"
      inkscape:cy="31.619364"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="3000"
-     inkscape:window-height="1875"
-     inkscape:window-x="-13"
-     inkscape:window-y="-13"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -67,45 +76,31 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(419.59182,209.34238)">
+    <text
+       clip-path="url(#12_text_clipper)"
+       style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none;shape-rendering:auto"
+       y="76"
+       x="6"
+       id="10"
+       transform="matrix(0.18181818,0,0,0.18181818,-402.85425,-219.61219)">
+      <tspan
+         id="14"
+         dy="15.75pt">Source</tspan>
+    </text>
     <g
-       id="g5793">
-      <g
-         transform="matrix(1.2520152,0,0,1.2520152,105.74357,49.733307)"
-         id="g5173">
-        <circle
-           r="4.3566127"
-           style="opacity:1;fill:none;stroke:#000000;stroke-width:0.87132251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;shape-rendering:auto"
-           cx="-414.79959"
-           cy="-202.13467"
-           id="4" />
-        <circle
-           r="4.3566127"
-           style="opacity:1;fill:#ee82ee;stroke:none;stroke-width:0.14522041;shape-rendering:auto"
-           cx="-414.79959"
-           cy="-202.13467"
-           id="5" />
-        <g
-           aria-label="S"
-           style="font-size:3.04962873px;font-family:'Microsoft Sans Serif';text-anchor:middle;opacity:1;fill:#000000;stroke:none;stroke-width:0.14522041;shape-rendering:auto"
-           id="6">
-          <path
-             d="m -414.75045,-201.01216 q -0.46162,0 -0.69093,-0.20698 -0.22783,-0.20699 -0.23974,-0.5316 h 0.27845 q 0.0223,0.2442 0.20252,0.36184 0.18166,0.11615 0.43779,0.11615 0.24272,0 0.39013,-0.0998 0.14891,-0.0998 0.14891,-0.27101 0,-0.18018 -0.15337,-0.26208 -0.15338,-0.0819 -0.52863,-0.16082 -0.37375,-0.0804 -0.53755,-0.22187 -0.16231,-0.14146 -0.16231,-0.37674 0,-0.26505 0.21145,-0.43481 0.21294,-0.16975 0.56436,-0.16975 0.36929,0 0.59563,0.17124 0.22634,0.17125 0.23974,0.48395 h -0.28144 q -0.0432,-0.39609 -0.54202,-0.39609 -0.24123,0 -0.37376,0.0908 -0.13253,0.0908 -0.13253,0.24123 0,0.137 0.10573,0.20549 0.10721,0.0685 0.39758,0.13253 0.29186,0.064 0.4631,0.12657 0.17125,0.0625 0.29335,0.19507 0.12211,0.13104 0.12211,0.35291 0,0.28144 -0.22485,0.46757 -0.22337,0.18614 -0.58372,0.18614 z"
-             style="stroke-width:0.14522041"
-             id="path5795"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <text
-         transform="matrix(0.18181818,0,0,0.18181818,-405.80836,-219.61219)"
-         id="10"
-         x="6"
-         y="76"
-         style="font-size:21px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none;shape-rendering:auto"
-         clip-path="url(#12_text_clipper)">
-        <tspan
-           dy="15.75pt"
-           id="14">Source</tspan>
-      </text>
+       id="g27"
+       transform="matrix(0.93851977,0,0,0.93851977,-5.691138,1.626179)">
+      <path
+         inkscape:connector-curvature="0"
+         id="96"
+         style="opacity:1;fill:none;stroke:#a9a9a9;stroke-width:0.85240608;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;shape-rendering:auto"
+         d="m -425.91441,-222.57235 c 1.62788,2.5111 1.62059,5.74607 -0.0185,8.25001" />
+      <circle
+         r="6.3930459"
+         style="opacity:1;fill:#5bb27e;stroke:none;stroke-width:0.42620304;shape-rendering:auto"
+         cx="-432.80994"
+         cy="-218.39557"
+         id="97" />
     </g>
   </g>
 </svg>

@@ -21,7 +21,7 @@ The `Toolbox` allows you to search for available Bonsai operators to place in th
 | ![Transform](/assets/images/transform.svg)   | convert or process individual data items              |
 | ![Sink](/assets/images/sink.svg)             | save data or trigger external outputs                 |
 | ![Combinator](/assets/images/combinator.svg) | manage control flow or synchronize parallel inputs    |
-| ![Snippet](/assets/images/snippet.svg)       | reusable workflow fragments stored in `.bonsai` files |
+| ![Workflow](/assets/images/workflow.svg)     | reusable workflow fragments stored in `.bonsai` files |
 
 Operators inside each major category are further organized by package namespaces. These namespaces come from the packages you have installed at any given moment. The name of each namespace can give you a hint about what kind of operations or devices can be accessed inside (e.g., the `Audio` namespace provides access to audio capture devices or WAV file readers).
 

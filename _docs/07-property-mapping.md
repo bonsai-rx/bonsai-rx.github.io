@@ -25,13 +25,13 @@ Property mapping operators allow you to do exactly this. They are operators that
 
 | Mapping Type | Description |
 | :----------: | ----------- |
-| ![Externalized property](/assets/images/externalizedproperty.svg) | Externalize a single operator property. The property can be optionally named and will show up in the `Properties` panel for node groups. |
+| ![Externalized mapping](/assets/images/externalizedmapping.svg) | Externalize one or more operator properties. The properties can be optionally named and will show up in the `Properties` panel for node groups. |
 | ![Property mapping](/assets/images/propertymapping.svg) | Map multiple properties simultaneously. Individual members of input data items can be mapped to different properties in the target node. |
 | ![Input mapping](/assets/images/inputmapping.svg) | Map multiple properties synchronized with input notifications. Same as above, but property changes are guaranteed to arrive simultaneously with input data. |
 
 ## Externalized properties
 
-The first type of property mapping operator is called an externalized property. Externalized properties can be created from the right-click context menu when a single node is selected. They map exactly one operator property and turn it into an explicit node.
+The externalized mapping operator allows you to create externalized properties. The easiest way to initialize the mapping is from the right-click context menu when a single node is selected. Selecting a property will create the externalized mapping node or add it to an existing one.
 
 ![Externalized property](/assets/images/externalizedproperty.png)
 
