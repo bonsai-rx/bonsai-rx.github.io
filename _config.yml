@@ -14,7 +14,7 @@ title                    : "Bonsai"
 title_separator          : "-"
 name                     : "NeuroGEARS"
 description              : "A visual language for reactive programming."
-url                      : https://bonsai-rx.org/
+url                      : https://bonsai-rx.org
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
