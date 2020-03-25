@@ -117,13 +117,13 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/bonsai-rx
+      url: https://github.com/bonsai-rx/bonsai
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      url: https://bitbucket.org/horizongir/bonsai
+      # url: https://bitbucket.org/horizongir/bonsai
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
