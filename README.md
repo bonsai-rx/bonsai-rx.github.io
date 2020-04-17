@@ -14,7 +14,7 @@ This website is powered by [Jekyll](http://jekyllrb.com/) using the [Minimal Mis
 
 The MIT License (MIT)
 
-Copyright (c) 2017 NeuroGEARS  
+Copyright (c) 2020 NeuroGEARS  
 Copyright (c) 2017 Michael Rose
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
