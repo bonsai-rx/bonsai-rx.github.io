@@ -70,7 +70,7 @@ gallery:
   <div class="splash-header">
     <div class="splash-block">
       <h2>Extensible toolbox</h2>
-      <p>Install new packages to interface directly with the next-generation open-hardware tools in neuroscience. Add your own support for cameras, microphones or microcontrollers with built-in scripting and extensibility support.</p>
+      <p>Install new packages to interface directly with the next-generation open-hardware tools in neuroscience. Add your own support for cameras, microcontrollers, and algorithms with built-in scripting and extensibility support.</p>
     </div>
     <div class="splash-image">
       <img src="/assets/images/devices.jpg" />
