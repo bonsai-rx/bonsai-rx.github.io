@@ -1,0 +1,32 @@
+.padded {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+}
+
+.splash-header {
+    width: 100%;
+    text-align: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.splash-block {
+    order: 0;
+    width: 50%;
+    min-width: 400px;
+}
+
+.splash-image {
+    order: 0;
+    width: 40%;
+    min-width: 300px;
+    vertical-align: middle;
+    margin: 20px;
+}
+@media screen and (min-width: 64em) { .splash-image { order: 0; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .splash-image { order: -1; } }
+@media screen and (max-width: 42em) { .splash-image { order: -1; } }

@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Introduction"
-    url: /introduction/
   - title: "Documentation"
     url: /docs/installation/
   - title: "Resources"

@@ -4,6 +4,12 @@
   {% capture img_path %}{{ page.header.image | absolute_url }}{% endcapture %}
 {% endif %}
 
+{% if page.header.cta_image contains "://" %}
+  {% capture cta_img_path %}{{ page.header.cta_image }}{% endcapture %}
+{% else %}
+  {% capture cta_img_path %}{{ page.header.cta_image | absolute_url }}{% endcapture %}
+{% endif %}
+
 {% if page.header.cta_url contains "://" %}
   {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
 {% else %}
@@ -23,10 +29,10 @@
 {% endif %}
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  style="text-align: center;{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper">
+    <div class="wrapper" style="display:inline-block;width: 30%;text-align: center;min-width: 500px;">
       <h1 class="page__title" itemprop="headline">
         {% if page.header.image %}<img style="vertical-align:bottom;min-width:50px" width="512px" src="{{ img_path }}"/>{% endif %}
         {% if paginator and site.paginate_show_page_num %}
@@ -45,6 +51,11 @@
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
     </div>
+    {% if page.header.cta_image %}
+    <div class="wrapper" style="display:inline-block;width: 50%;text-align: center;min-width: 500px;">
+      <img style="vertical-align:bottom;min-width:150px" width="512px" src="{{ cta_img_path }}"/>
+    </div>
+    {% endif %}
   {% else %}
     <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
   {% endif %}
