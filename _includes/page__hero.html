@@ -32,7 +32,7 @@
   style="text-align: center;{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper" style="display:inline-block;width: 30%;text-align: center;min-width: 500px;">
+    <div class="wrapper" style="display:inline-block;width: 30%;text-align: center;min-width: 300px;">
       <h1 class="page__title" itemprop="headline">
         {% if page.header.image %}<img style="vertical-align:bottom;min-width:50px" width="512px" src="{{ img_path }}"/>{% endif %}
         {% if paginator and site.paginate_show_page_num %}
@@ -52,7 +52,7 @@
       {% endif %}
     </div>
     {% if page.header.cta_image %}
-    <div class="wrapper" style="display:inline-block;width: 50%;text-align: center;min-width: 500px;">
+    <div class="wrapper" style="display:inline-block;width: 50%;text-align: center;min-width: 300px;">
       <img style="vertical-align:bottom;min-width:150px" width="512px" src="{{ cta_img_path }}"/>
     </div>
     {% endif %}

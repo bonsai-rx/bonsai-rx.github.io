@@ -13,6 +13,11 @@
    version="1.1"
    sodipodi:docname="bonsai-banner.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
+    <style>
+        text {
+            font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+        }
+    </style>
   <metadata
      id="metadata53">
     <rdf:RDF>
@@ -21,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,7 +49,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="3.5843354"
-     inkscape:cx="46.60941"
+     inkscape:cx="-2.4931377"
      inkscape:cy="17.594525"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
@@ -100,18 +105,6 @@
      id="197"
      style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.62703985;shape-rendering:auto"
      r="1.7243596" />
-  <text
-     clip-path="url(#200_text_clipper)"
-     style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;shape-rendering:auto"
-     id="198"
-     y="48.75"
-     x="305"
-     transform="matrix(0.5016319,0,0,0.5016319,-2.5081646,-2.5081635)">
-    <tspan
-       dy="9.75pt"
-       id="202"
-       style="fill:#ffffff;fill-opacity:1">SaveImage</tspan>
-  </text>
   <circle
      style="opacity:1;fill:#eec04b;stroke:none;stroke-width:0.62703985;shape-rendering:auto"
      cy="9.4055977"
@@ -123,18 +116,6 @@
      id="205"
      style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.62703985;shape-rendering:auto"
      inkscape:connector-curvature="0" />
-  <text
-     clip-path="url(#208_text_clipper)"
-     style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;shape-rendering:auto"
-     id="206"
-     y="48.75"
-     x="205"
-     transform="matrix(0.5016319,0,0,0.5016319,-2.5081646,-2.5081635)">
-    <tspan
-       dy="9.75pt"
-       id="210"
-       style="fill:#ffffff;fill-opacity:1">Sample</tspan>
-  </text>
   <circle
      style="opacity:1;fill:#449adf;stroke:none;stroke-width:0.62703985;shape-rendering:auto"
      cy="9.4055977"
@@ -152,18 +133,6 @@
      id="214"
      style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.62703985;shape-rendering:auto"
      r="1.7243596" />
-  <text
-     clip-path="url(#217_text_clipper)"
-     style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;shape-rendering:auto"
-     id="215"
-     y="48.75"
-     x="105"
-     transform="matrix(0.5016319,0,0,0.5016319,-2.5081646,-2.5081635)">
-    <tspan
-       dy="9.75pt"
-       id="219"
-       style="fill:#ffffff;fill-opacity:1">Grayscale</tspan>
-  </text>
   <path
      d="m 69.713665,53.423796 c 2.39497,3.69439 2.38425,8.45375 -0.0273,12.13761"
      id="221"
@@ -185,18 +154,6 @@
      style="opacity:1;fill:none;stroke:#ffffff;stroke-width:1.2540797;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;shape-rendering:auto"
      id="224"
      inkscape:connector-curvature="0" />
-  <text
-     clip-path="url(#227_text_clipper)"
-     style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;shape-rendering:auto"
-     id="225"
-     y="148.75"
-     x="105"
-     transform="matrix(0.5016319,0,0,0.5016319,-2.5081646,-2.5081635)">
-    <tspan
-       dy="9.75pt"
-       id="229"
-       style="fill:#ffffff;fill-opacity:1">KeyDown</tspan>
-  </text>
   <path
      d="m 19.550475,3.2606035 c 2.39497,3.694394 2.38425,8.4537525 -0.0273,12.1376115"
      id="231"
@@ -218,30 +175,6 @@
      id="234"
      style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.62703985;shape-rendering:auto"
      inkscape:connector-curvature="0" />
-  <text
-     clip-path="url(#237_text_clipper)"
-     style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;shape-rendering:auto"
-     id="235"
-     y="48.75"
-     x="5"
-     transform="matrix(0.5016319,0,0,0.5016319,-2.5081646,-2.5081635)">
-    <tspan
-       dy="9.75pt"
-       id="239"
-       style="fill:#ffffff;fill-opacity:1">Camera</tspan>
-  </text>
-  <text
-     clip-path="url(#243_text_clipper)"
-     style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;shape-rendering:auto"
-     id="241"
-     y="63.459999"
-     x="5"
-     transform="matrix(0.5016319,0,0,0.5016319,-2.5081646,-2.5081635)">
-    <tspan
-       dy="9.75pt"
-       id="245"
-       style="fill:#ffffff;fill-opacity:1">Capture</tspan>
-  </text>
   <defs
      id="clips_hatches_and_gradients">
     <clipPath
@@ -299,4 +232,64 @@
          y="63.459999" />
     </clipPath>
   </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6.00000048px;line-height:0.60000002;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="-0.33691409"
+     y="28.16139"
+     id="text858"><tspan
+       sodipodi:role="line"
+       id="tspan856"
+       x="-0.33691409"
+       y="28.16139"
+       style="font-size:6.00000048px;line-height:1.20000005">Camera</tspan><tspan
+       sodipodi:role="line"
+       x="-0.33691409"
+       y="35.361393"
+       id="tspan860"
+       style="font-size:6.00000048px;line-height:1.20000005">Capture</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6.00000048px;line-height:0.60000002;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="50.131954"
+     y="28.278578"
+     id="text858-2"><tspan
+       sodipodi:role="line"
+       x="50.131954"
+       y="28.278578"
+       id="tspan860-0"
+       style="font-size:6.00000048px;line-height:1.20000005">Grayscale</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6.00000048px;line-height:0.60000002;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="100.22675"
+     y="28.278578"
+     id="text858-2-1"><tspan
+       sodipodi:role="line"
+       x="100.22675"
+       y="28.278578"
+       id="tspan860-0-2"
+       style="font-size:6.00000048px;line-height:1.20000005">Sample</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6.00000048px;line-height:0.60000002;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="150.38994"
+     y="28.16139"
+     id="text858-2-6"><tspan
+       sodipodi:role="line"
+       x="150.38994"
+       y="28.16139"
+       id="tspan860-0-4"
+       style="font-size:6.00000048px;line-height:1.20000005">SaveImage</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6.00000048px;line-height:0.60000002;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="50.084805"
+     y="78.325081"
+     id="text858-2-6-5"><tspan
+       sodipodi:role="line"
+       x="50.084805"
+       y="78.325081"
+       id="tspan860-0-4-9"
+       style="font-size:6.00000048px;line-height:1.20000005">KeyDown</tspan></text>
 </svg>
