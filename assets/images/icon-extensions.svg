@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150"
+   width="130"
    height="90"
    version="1.1"
    id="svg10"
@@ -40,8 +40,8 @@
      inkscape:window-height="1001"
      id="namedview12"
      showgrid="false"
-     inkscape:zoom="3.9333333"
-     inkscape:cx="15"
+     inkscape:zoom="2.7812866"
+     inkscape:cx="-29.745763"
      inkscape:cy="15"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
@@ -49,7 +49,7 @@
      inkscape:current-layer="svg10" />
   <g
      id="g8"
-     transform="matrix(3,0,0,3,30.198,-0.2613)"
+     transform="matrix(3,0,0,3,20.198,-0.2613)"
      style="shape-rendering:auto">
     <path
        d="m 10.824,9.4752 -7.2627,5.5836 7.2627,5.5519 -0.0088,-2.286 -4.2962,-3.298 4.3049,-3.2845 z"
