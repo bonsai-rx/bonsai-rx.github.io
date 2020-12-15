@@ -1,0 +1,6 @@
+<figure>
+    {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+    {% if fig_caption %}
+    <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+    {% endif %}
+</figure>

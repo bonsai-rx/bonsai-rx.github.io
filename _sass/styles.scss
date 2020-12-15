@@ -31,3 +31,7 @@
 @media screen and (min-width: 64em) { .splash-image { order: 0; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .splash-image { order: -1; } }
 @media screen and (max-width: 42em) { .splash-image { order: -1; } }
+
+.page__content a:not(.btn):not(#goog-wm-sb):hover img {
+    box-shadow: none;
+}
