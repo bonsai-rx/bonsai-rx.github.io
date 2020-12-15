@@ -2,8 +2,8 @@
 main:
   - title: "Docs"
     url: /docs/installation/
-  - title: "Resources"
-    url: /resources/
+  - title: "Learn"
+    url: /learn/
   - title: "Community"
     url: /community/
 

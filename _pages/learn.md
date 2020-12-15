@@ -1,7 +1,7 @@
 ---
-title: "Resources"
+title: "Learn"
 layout: single
-permalink: /resources/
+permalink: /learn/
 author_profile: false
 ---
 
