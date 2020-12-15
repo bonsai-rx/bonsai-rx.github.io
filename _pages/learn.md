@@ -7,9 +7,13 @@ author_profile: false
 
 ## Bonsai Courses
 
-* [Visual Reactive Programming](http://cajal-training.org/neurokit/visual-reactive-programming-bonsai/): an in-depth and hands-on introductory course to the Bonsai programming language (applications open at the [Cajal Neurokit Website](http://cajal-training.org/neurokit/visual-reactive-programming-bonsai/))
+##### [Visual Reactive Programming](http://cajal-training.org/neurokit/visual-reactive-programming-bonsai/)
 
-* [Advanced Neurophysiology and Behaviour](https://www.med.uminho.pt/en/post-graduation/courses/anb): an in-depth and hands-on introductory course to the Bonsai programming language (2018)
+An in-depth and hands-on introductory course to the Bonsai programming language (applications open at the [Cajal Neurokit Website](http://cajal-training.org/neurokit/visual-reactive-programming-bonsai/)).
+
+
+##### [Advanced Neurophysiology and Behaviour](https://www.med.uminho.pt/en/post-graduation/courses/anb)
+An international training course on the computerised control of data acquisition and experimental protocols, and the theory and practise of neurophysiology. (2018)
 
 ## Documentation
 
