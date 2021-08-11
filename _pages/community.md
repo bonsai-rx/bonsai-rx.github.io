@@ -5,7 +5,7 @@ permalink: /community/
 author_profile: false
 ---
 
- * [Public Discord server](https://discord.gg/Cp8ZfQ9ytp){:target="_blank"}
+ * [Public Discord server](https://discord.gg/jxxESbzShs){:target="_blank"}
 
  * [Bonsai Users Google group](https://groups.google.com/forum/#!forum/bonsai-users){:target="_blank"}
 
