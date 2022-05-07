@@ -79,11 +79,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gonçalo Lopes"
+  name             : "Bonsai Foundation CIC"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Augmenting brains through technology."
-  location         : "Somewhere"
+  location         : "London, UK"
   email            :
+  url              : foundation
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
