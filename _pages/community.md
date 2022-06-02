@@ -7,7 +7,7 @@ author_profile: false
 
  * [Public Discord server](https://discord.gg/jxxESbzShs){:target="_blank"}
 
- * [Bonsai Users Google group](https://groups.google.com/forum/#!forum/bonsai-users){:target="_blank"}
+ * [GitHub Discussions forum](https://github.com/bonsai-rx/bonsai/discussions){:target="_blank"}
 
 ## Related Projects
 
