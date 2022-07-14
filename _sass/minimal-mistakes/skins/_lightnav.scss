@@ -1,0 +1,17 @@
+/* ==========================================================================
+   DocFX skin
+   ========================================================================== */
+
+$navbar-background-color: #fff !default;
+
+.masthead, .masthead__inner-wrap, .masthead__menu {
+   background: $navbar-background-color;
+}
+
+.masthead .masthead__inner-wrap .masthead__menu .greedy-nav {
+   background: $navbar-background-color;
+}
+
+.masthead .masthead__inner-wrap .masthead__menu .greedy-nav .visible-links a::before {
+   height: 2px;
+}

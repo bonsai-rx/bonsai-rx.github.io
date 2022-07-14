@@ -35,3 +35,16 @@
 .page__content a:not(.btn):not(#goog-wm-sb):hover img {
     box-shadow: none;
 }
+
+.masthead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+ }
+
+.masthead__inner-wrap {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
