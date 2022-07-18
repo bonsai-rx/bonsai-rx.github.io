@@ -7,7 +7,7 @@ header:
    image: /assets/images/bonsai-lettering.svg
    overlay_color: "#5e616c"
    cta_label: "<i class='fa fa-download'></i> Install Now"
-   cta_url: /docs/installation/
+   cta_url: /docs/articles/installation.html
    cta_image: /assets/images/bonsai-banner.svg
 gallery:
  - url: /assets/images/fishtracking.jpg
