@@ -5,7 +5,7 @@ permalink: /community/
 author_profile: false
 ---
 
- * [Public Discord server](https://discord.gg/z4gBcEFzHv){:target="_blank"}
+ * [Public Discord server](https://discord.gg/Psa4TS75){:target="_blank"}
 
  * [GitHub Discussions forum](https://github.com/bonsai-rx/bonsai/discussions){:target="_blank"}
 
