@@ -5,11 +5,19 @@ permalink: /community/
 author_profile: false
 ---
 
- * [Public Discord server](https://discord.gg/Psa4TS75){:target="_blank"}
+ * [Public Discord server](https://discord.gg/zUhuDcYuJH){:target="_blank"}
 
  * [GitHub Discussions forum](https://github.com/bonsai-rx/bonsai/discussions){:target="_blank"}
 
 ## Related Projects
+
+{% capture fig_img %}
+[![Harp](/assets/images/logo-harp.png)](https://harp-tech.org/)
+{% endcapture %}
+{% capture fig_caption %}
+Harp: real-time data acquisition and experimental control hardware.
+{% endcapture %}
+{% include figure_caption.html %}
 
 {% capture fig_img %}
 [![Open Ephys](/assets/images/logo-oe.png)](https://open-ephys.org/)
