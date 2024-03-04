@@ -6,6 +6,8 @@ main:
     url: /learn/
   - title: "Community"
     url: /community/
+  - title: "Contribute"
+    url: /contribute/
 
 docs:
   - title: "Getting Started"
