@@ -108,21 +108,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/bonsai_rx
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Mastodon"
+      icon: "fab fa-brands fa-mastodon"
+      url: https://neuromatch.social/@bonsai
+    - label: "Discord"
+      icon: "fab fa-brands fa-discord"
+      url: https://discord.gg/zUhuDcYuJH
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/bonsai-rx/bonsai
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url: https://bitbucket.org/horizongir/bonsai
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
