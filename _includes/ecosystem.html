@@ -1,0 +1,65 @@
+{% comment %}
+Hub-and-spoke diagram generated from _data/ecosystem.yml.
+
+Spokes are spread evenly around one ring (see _sass/ecosystem.scss). To keep
+the hand-drawn feel of the original drawing, each spoke gets a small,
+deterministic offset in angle and arrow length derived from its position in
+the list, and each arrow bends slightly, alternating left and right.
+
+Per-item overrides from the data file:
+  shape   square | wide              square for icons, wide for wordmarks (default square)
+  scale   multiplier applied to the logo size, e.g. 1.5 (default 1)
+  radius  distance from the centre, in % of the ring width (default 40)
+  gap     how far short of the spoke centre the arrow stops, in % of the
+          ring width (default 14 for wide, 10 for square)
+  nudge   extra rotation in degrees, positive is clockwise (default 0)
+
+The inline SVG uses viewBox -50..50, which maps onto 0..100cqw of the ring,
+so the numbers used for the arrows and for the spokes are the same.
+{% endcomment %}
+{% assign items = site.data.ecosystem.items %}
+{% assign count = items.size %}
+<div class="ecosystem">
+  <div class="ecosystem__ring">
+    <svg class="ecosystem__arrows" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false">
+      <defs>
+        <marker id="ecosystem-arrowhead" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 10 5 L 0 8.5 L 2.5 5 z"></path>
+        </marker>
+      </defs>
+      {% for item in items %}
+        {% assign jitter = forloop.index0 | times: 7 | modulo: 5 | minus: 2 %}
+        {% assign nudge = item.nudge | default: 0 %}
+        {% assign angle = forloop.index0 | times: 360.0 | divided_by: count | minus: 90 | plus: jitter | plus: nudge %}
+        {% assign radius = item.radius | default: 40 %}
+        {% assign shorten = forloop.index0 | times: 3 | modulo: 3 %}
+        {% assign x1 = 11 %}
+        {% assign shape = item.shape | default: "square" %}
+        {% if shape == "wide" %}{% assign gap = 14 %}{% else %}{% assign gap = 10 %}{% endif %}
+        {% assign gap = item.gap | default: gap %}
+        {% assign x2 = radius | minus: gap | minus: shorten %}
+        {% assign len = x2 | minus: x1 %}
+        {% assign mid = len | divided_by: 2.0 | plus: x1 %}
+        {% assign bend = len | times: 0.1 %}
+        {% assign parity = forloop.index0 | modulo: 2 %}
+        {% if parity == 1 %}{% assign bend = bend | times: -1 %}{% endif %}
+        <path d="M {{ x1 }} 0 Q {{ mid }} {{ bend }} {{ x2 }} 0" transform="rotate({{ angle }})" marker-start="url(#ecosystem-arrowhead)" marker-end="url(#ecosystem-arrowhead)"></path>
+      {% endfor %}
+    </svg>
+    <div class="ecosystem__hub">
+      <img src="/assets/images/ecosystem-bonsai.svg" alt="Bonsai">
+    </div>
+    {% for item in items %}
+      {% assign jitter = forloop.index0 | times: 7 | modulo: 5 | minus: 2 %}
+      {% assign nudge = item.nudge | default: 0 %}
+      {% assign angle = forloop.index0 | times: 360.0 | divided_by: count | minus: 90 | plus: jitter | plus: nudge %}
+      {% assign radius = item.radius | default: 40 %}
+      {% assign shape = item.shape | default: "square" %}
+      {% assign scale = item.scale | default: 1 %}
+      <a class="ecosystem__spoke ecosystem__spoke--{{ shape }}" href="{{ item.url }}" target="_blank" rel="noopener" style="--angle: {{ angle }}deg; --radius: {{ radius }}cqw; --scale: {{ scale }};">
+        <img src="/assets/images/{{ item.image }}" alt="{{ item.name }}">
+        <span class="ecosystem__tip" role="tooltip">{{ item.description }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</div>

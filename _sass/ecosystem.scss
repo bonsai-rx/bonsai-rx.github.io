@@ -1,0 +1,193 @@
+/* ==========================================================================
+   Ecosystem diagram (_includes/ecosystem.html)
+   The ring is a square container; every size inside it is expressed in cqw
+   (1cqw = 1% of the ring width) so the layout scales with the page.
+   ========================================================================== */
+
+.ecosystem__ring {
+  position: relative;
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto 2em;
+  aspect-ratio: 1 / 1;
+  container-type: inline-size;
+}
+
+.ecosystem__arrows {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.3;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.ecosystem__arrows marker path {
+  fill: #000;
+  stroke: none;
+}
+
+.ecosystem__hub {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 18cqw;
+  height: 18cqw;
+  transform: translate(-50%, -50%);
+}
+
+.ecosystem__hub img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Each spoke is a box centred on a point of the ring. --angle, --radius and
+   --scale come from the include; --box is the width of the box and --logo the
+   maximum height of the image inside it, both multiplied by --scale. */
+.ecosystem__spoke {
+  --box-base: 18cqw;
+  --logo-base: 12cqw;
+  --scale: 1;
+  --box: calc(var(--box-base) * var(--scale));
+  --logo: calc(var(--logo-base) * var(--scale));
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--box);
+  height: var(--box);
+  margin: calc(var(--box) / -2) 0 0 calc(var(--box) / -2);
+  transform: rotate(var(--angle)) translate(var(--radius)) rotate(calc(-1 * var(--angle)));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Wide wordmarks get a wider box with a lower height limit */
+.ecosystem__spoke--wide {
+  --box-base: 25cqw;
+  --logo-base: 9cqw;
+}
+
+.ecosystem__spoke img {
+  display: block;
+  max-width: 100%;
+  max-height: var(--logo);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.15s ease-in-out;
+}
+
+.ecosystem__spoke:hover img,
+.ecosystem__spoke:focus-visible img {
+  transform: scale(1.08);
+}
+
+/* No focus ring on the (large, invisible) spoke box after a mouse click;
+   keyboard users get a ring around the logo itself instead. */
+.ecosystem__spoke:focus,
+.ecosystem__spoke:focus-visible {
+  outline: none;
+}
+
+.ecosystem__spoke:focus-visible img {
+  outline: 2px solid #2d7fc1;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+/* Description bubble shown on hover or keyboard focus */
+.ecosystem__tip {
+  position: absolute;
+  top: calc(50% + var(--logo) / 2);
+  left: 50%;
+  transform: translate(-50%, 0.5em);
+  width: max-content;
+  max-width: 16em;
+  padding: 0.5em 0.75em;
+  background: #3d4144;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: normal;
+  line-height: 1.35;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease-in-out;
+  pointer-events: none;
+}
+
+.ecosystem__tip::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border: 6px solid transparent;
+  border-bottom-color: #3d4144;
+}
+
+.ecosystem__spoke:hover,
+.ecosystem__spoke:focus-visible {
+  z-index: 5;
+  text-decoration: none;
+}
+
+.ecosystem__spoke:hover .ecosystem__tip,
+.ecosystem__spoke:focus-visible .ecosystem__tip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Narrow screens: give up the ring and fall back to three centred columns.
+   Flexbox rather than grid so that a partial last row is centred too. */
+@media screen and (max-width: 40em) {
+  .ecosystem__ring {
+    aspect-ratio: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em 1em;
+    container-type: normal;
+  }
+
+  .ecosystem__arrows {
+    display: none;
+  }
+
+  .ecosystem__hub {
+    display: none;
+  }
+
+  .ecosystem__spoke,
+  .ecosystem__spoke--wide {
+    position: relative;
+    left: auto;
+    top: auto;
+    flex: 0 0 calc((100% - 2em) / 3);
+    width: auto;
+    height: auto;
+    min-width: 0;
+    margin: 0;
+    transform: none;
+  }
+
+  .ecosystem__spoke img {
+    max-width: 100%;
+    max-height: 64px;
+  }
+
+  .ecosystem__tip {
+    top: 100%;
+  }
+}
