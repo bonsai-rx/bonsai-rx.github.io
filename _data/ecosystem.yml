@@ -1,0 +1,99 @@
+# Content of the Ecosystem page (/ecosystem/).
+#
+# To add an integration: drop its logo in assets/images/ as ecosystem-<name>.svg
+# (or .png), then add an entry under `items`. The ring diagram is generated
+# from this file.
+#
+# The order of `items` is the order around the ring, clockwise from the top.
+# Spokes are spaced evenly; use `nudge` to shift one a few degrees. Wide wordmark
+# logos fit best at the left and right of the ring; compact icons fit best at
+# the top and bottom.
+#
+# Required fields:
+#   name         display name, used as the image alt text
+#   image        file name under assets/images/
+#   url          where clicking the logo goes, ideally the Bonsai package docs
+#   description  one line shown in a tooltip when hovering over the logo
+#
+# Optional fields:
+#   shape        square | wide; wide for wordmark logos, square for icons (default square)
+#   scale        multiplier on the logo size, e.g. 1.5 makes it half as big again (default 1)
+#   radius       distance from the centre as a percentage of the ring width (default 40)
+#   nudge        extra rotation in degrees, positive is clockwise (default 0)
+#   gap          how far short of the logo centre the arrow stops, as a percentage
+#                of the ring width (default 14 for wide, 10 for square);
+#                lower it for wide, short logos so the arrow reaches them
+
+items:
+  - name: SLEAP
+    image: ecosystem-sleap.png
+    url: https://bonsai-rx.org/sleap/
+    shape: square
+    description: Multi-animal pose tracking with deep learning
+    scale: 1.3
+
+  - name: DeepLabCut
+    image: ecosystem-deeplabcut.png
+    url: https://bonsai-rx.org/deeplabcut/
+    shape: wide
+    description: Markerless animal pose estimation with deep learning
+    gap: 10
+    nudge: 3
+    scale: 1.2
+
+  - name: Miniscope
+    image: ecosystem-miniscope.png
+    url: https://open-ephys.github.io/miniscope-docs/Software-Guide/openephys-gui.html
+    shape: wide
+    description: Open-source head-mounted microscopes for calcium imaging in freely moving animals
+    radius: 38
+
+  - name: ZeroMQ
+    image: ecosystem-zeromq.svg
+    url: https://bonsai-rx.org/zeromq/
+    shape: square
+    description: Universal messaging library for exchanging data between programs and computers
+    radius: 38
+
+  - name: BonZeb
+    image: ecosystem-bonzeb.svg
+    url: https://ncguilbeault.github.io/BonZeb/
+    shape: square
+    description: High-speed kinematic tracking, closed-loop stimulation, and behavioural analysis of small model organisms
+
+  - name: Build GUI
+    image: ecosystem-build-gui.svg
+    url: https://bonsai-rx.org/imgui/
+    shape: square
+    description: Compose user interfaces and real-time graphs
+    scale: 1.2
+
+  - name: BonVision
+    image: ecosystem-bonvision.png
+    url: https://bonvision.github.io/
+    shape: square
+    description: Create and control visual environments
+    scale: 1.2
+
+  - name: Neuropixels
+    image: ecosystem-neuropixels.png
+    url: https://bonsai-rx.org/spikeglx/
+    shape: wide
+    description: High-density silicon probes for large-scale electrophysiology
+    radius: 38
+
+  - name: ONIX
+    image: ecosystem-onix.svg
+    url: https://open-ephys.github.io/bonsai-onix1-docs/
+    shape: wide
+    description: Open Ephys acquisition hardware for high-channel-count neural recording and closed-loop experiments
+    radius: 38
+
+  - name: Harp
+    image: ecosystem-harp.svg
+    url: https://harp-tech.org/
+    shape: wide
+    description: Standard for real-time data acquisition and experimental control in neuroscience
+    scale: 0.9
+    gap: 12
+    nudge: -5

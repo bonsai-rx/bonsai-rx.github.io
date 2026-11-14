@@ -5,40 +5,17 @@ permalink: /community/
 author_profile: false
 ---
 
- * [Public Discord server](https://discord.gg/QcthRPuZnr){:target="_blank"}
+Ask questions and share projects with other Bonsai users and developers.
 
- * [GitHub Discussions forum](https://github.com/bonsai-rx/bonsai/discussions){:target="_blank"}
+<div class="community-links">
+<a href="https://discord.gg/QcthRPuZnr" class="btn btn--discord btn--large" target="_blank" rel="noopener"><i class="fab fa-discord"></i> Discord server</a>
+<a href="https://github.com/bonsai-rx/bonsai/discussions" class="btn btn--github btn--large" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub Discussions</a>
+</div>
 
-## Related Projects
+## Ecosystem
 
-{% capture fig_img %}
-[![Harp](/assets/images/logo-harp.png)](https://harp-tech.org/)
-{% endcapture %}
-{% capture fig_caption %}
-Harp: real-time data acquisition and experimental control hardware.
-{% endcapture %}
-{% include figure_caption.html %}
+Bonsai integrates with a growing set of hardware and software tools commonly used in neuroscience. Hover over a logo for a short description, and click it to learn more about how to use that tool with Bonsai.
 
-{% capture fig_img %}
-[![Open Ephys](/assets/images/logo-oe.png)](https://open-ephys.org/)
-{% endcapture %}
-{% capture fig_caption %}
-Open Ephys: Open source electrophysiology and hardware.
-{% endcapture %}
-{% include figure_caption.html %}
+{% include ecosystem.html %}
 
-{% capture fig_img %}
-[![BonVision](/assets/images/logo-bonvision.png)](https://bonvision.github.io/)
-{% endcapture %}
-{% capture fig_caption %}
-BonVision: create and control visual environments.
-{% endcapture %}
-{% include figure_caption.html %}
-
-{% capture fig_img %}
-[![DeepLabCut](/assets/images/logo-dlc.png)](http://www.mousemotorlab.org/deeplabcut)
-{% endcapture %}
-{% capture fig_caption %}
-DeepLabCut: a software package for animal pose estimation.
-{% endcapture %}
-{% include figure_caption.html %}
+Looking for something else? Browse the full list of integrations in the [Bonsai package manager](https://bonsai-rx.org/docs/articles/packages.html){:target="_blank"}.
