@@ -4,8 +4,6 @@ main:
     url: /docs/
   - title: "Learn"
     url: /learn/
-  - title: "Ecosystem"
-    url: /ecosystem/
   - title: "Community"
     url: /community/
   - title: "Contribute"

@@ -190,4 +190,21 @@
   .ecosystem__tip {
     top: 100%;
   }
+
+  /* Keep the tooltips of the outer columns inside the page */
+  .ecosystem__spoke:nth-of-type(3n + 1) .ecosystem__tip {
+    left: 0;
+    transform: translate(0, 0.5em);
+  }
+
+  .ecosystem__spoke:nth-of-type(3n) .ecosystem__tip {
+    left: auto;
+    right: 0;
+    transform: translate(0, 0.5em);
+  }
+
+  .ecosystem__spoke:nth-of-type(3n + 1) .ecosystem__tip::before,
+  .ecosystem__spoke:nth-of-type(3n) .ecosystem__tip::before {
+    display: none;
+  }
 }
